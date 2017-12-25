@@ -376,6 +376,15 @@ table, th, td {
 
 @media only screen and (max-width : 992px) {
 
+	.parallax-index {
+		height: 100%;
+		width: auto;
+		background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+}
+
 	.text-index h2 {
 		font-size: 2.5em;
 	}
@@ -458,11 +467,5 @@ table, th, td {
 	#gestione-ordini h3 {
 		font-size: 1.3em;
 		font-weight: 400;
-	}
-}
-
-@media only screen and ( max-device-width: 1024) {
-	.parallax-index {
-		background-attachment: scroll;
 	}
 }

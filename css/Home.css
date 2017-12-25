@@ -379,10 +379,7 @@ table, th, td {
 	.parallax-index {
 		height: 100%;
 		width: auto;
-		background-attachment: fixed;
-    	background-position: center;
-    	background-repeat: no-repeat;
-    	background-size: cover;
+		background-attachment: scroll;
 }
 
 	.text-index h2 {

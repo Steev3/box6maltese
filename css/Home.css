@@ -461,8 +461,8 @@ table, th, td {
 	}
 }
 
-@media only screen and ( max-device-width: 1024 ) {
-	.parallax {
+@media only screen and ( max-device-width: 1024) {
+	.parallax-index {
 		background-attachment: scroll;
 	}
 }

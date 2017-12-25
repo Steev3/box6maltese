@@ -460,3 +460,9 @@ table, th, td {
 		font-weight: 400;
 	}
 }
+
+@media only screen and ( max-width: 1024 ) {
+	.parallax {
+		background-attachment: scroll;
+	}
+}

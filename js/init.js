@@ -63,7 +63,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 	$(".obscurator").click(function() {
-		$(".link-mobile").css("height","0");
+		$(".link-mobile").css("left","-100%");
 		$(".obscurator").fadeOut();
 	});
 });

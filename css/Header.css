@@ -441,7 +441,7 @@ nav .link-extended #ul-inner a {
 	}
 
 	nav .nav-bar .link-mobile a:hover {
-		background-color: #white;
+		background-color: white;
 		color: #181F1C;
 		-webkit-transition-duration: 0.0s;
 		-moz-transition-duration: 0.0s;

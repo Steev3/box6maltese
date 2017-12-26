@@ -73,8 +73,6 @@ $(window).resize(function() {
   var window_width = $(window).width();
   if(window_width < 976) {
     $(".button-menu-open").css("display","block");
-	$(".button-menu-close").css("display","none");
-	$(".link-mobile").css("left","-100%");
 	$(".obscurator").css("display","none");
 	$("body").css("overflow","auto");
   } else {

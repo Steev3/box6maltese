@@ -2,7 +2,9 @@
 //Animate Mobile Menu
 $(document).ready(function() {
 	$(".button-menu-open").click(function() {
-		$("#mobile-menu").css("height","100%");
+		$("#mobile-menu").css("position","fixed");
+		$("#mobile-menu").css("height","400px");
+		$("#mobile-menu").css("padding","30px 0");
 		$(".button-menu-open").css("display","none");
 		$(".button-menu-close").css("display","block");
 	});

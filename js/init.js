@@ -4,7 +4,6 @@ $(document).ready(function() {
 	$(".button-menu-open").click(function() {
 		$(".link-mobile").css("left","0");
 		$(".link-mobile").css("overflow","auto");
-		$("body,html").css("overflow","hidden");
 		$(".button-menu-open").css("display","block");
 		$(".button-menu-close").css("display","block");
 		$(".obscurator").fadeToggle();
@@ -14,7 +13,7 @@ $(document).ready(function() {
 $(document).ready(function() {
 	$(".button-menu-close").click(function() {
 		$(".link-mobile").css("left","-100%");
-		$("body").css("overflow","auto");
+		$(".link-mobile").css("overflow","auto");
 		$(".button-menu-open").css("display","block");
 		$(".button-menu-close").css("display","block");
 		$(".obscurator").fadeToggle();

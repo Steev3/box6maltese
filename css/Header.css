@@ -398,7 +398,8 @@ nav .link-extended #ul-inner a {
 
 	nav .nav-bar .link-mobile .inner-nav-bar-menu .brand-logo a {
 		font-size: 1.3em;
-		padding: 13px 0;
+		display: table-cell;
+		vertical-align: middle;
 	}
 
 	nav .nav-bar .link-mobile ul {

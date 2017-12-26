@@ -53,6 +53,11 @@ footer .footer-contacts h5 {
 	text-transform: uppercase;
 }
 
+footer .footer-contacts li p {
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1px;
+}
+
 footer .footer-contacts li .providers {
 	width: 90%;
 	height: auto;
@@ -248,7 +253,7 @@ footer .footer-copy #developer a:hover {
 	}
 
 	footer .footer-contacts li .providers #telegram-button:hover {
-		background-color: #329932;
+		background-color: #181F1C;
 		color: white;
 		-webkit-transition: 0s ease-in-out;
 		-moz-transition: 0s ease-in-out;
@@ -258,13 +263,33 @@ footer .footer-copy #developer a:hover {
 	}
 
 	footer .footer-contacts li .providers a:hover {
-		background-color: #329932;
+		background-color: #181F1C;
 		color: white;
 		-webkit-transition: 0s ease-in-out;
 		-moz-transition: 0s ease-in-out;
 		-o-transition: 0s ease-in-out;
 		-ms-transition: 0s ease-in-out;
 		transition: 0s ease-in-out;
+	}
+
+	footer .footer-contacts li .providers #telegram-button:active {
+		background-color: white;
+		-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.1) inset;
+		-moz-box-shadow: 0 0 1px rgba(0,0,0,0.1) inset;
+		-o-box-shadow: 0 0 1px rgba(0,0,0,0.1) inset;
+		-ms-box-shadow: 0 0 1px rgba(0,0,0,0.1) inset;
+		box-shadow: 0 0 1px rgba(0,0,0,0.1) inset;
+		color: #181F1C;
+	}
+
+	footer .footer-contacts li .providers a:active {
+		background-color: white;
+		-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.1) inset;
+		-moz-box-shadow: 0 0 1px rgba(0,0,0,0.1) inset;
+		-o-box-shadow: 0 0 1px rgba(0,0,0,0.1) inset;
+		-ms-box-shadow: 0 0 1px rgba(0,0,0,0.1) inset;
+		box-shadow: 0 0 1px rgba(0,0,0,0.1) inset;
+		color: #181F1C;
 	}
 
 	footer .footer-follow .link-icons {
@@ -277,10 +302,26 @@ footer .footer-copy #developer a:hover {
 		width: 33.333%;
 		padding: 20px 0;
 		text-decoration: none;
+		-webkit-transition: 0s ease-in-out;
+		-moz-transition: 0s ease-in-out;
+		-o-transition: 0s ease-in-out;
+		-ms-transition: 0s ease-in-out;
+		transition: 0s ease-in-out;
 	}
 
 	footer .footer-follow .link-icons a:hover {
-		background-color: #329932;		color: white;
+		background-color: #181F1C;		
+		color: white;
+	}
+
+	footer .footer-follow .link-icons a:active {
+		background-color: white;
+		color: #181F1C;
+		-webkit-transition: 0s ease-in-out;
+		-moz-transition: 0s ease-in-out;
+		-o-transition: 0s ease-in-out;
+		-ms-transition: 0s ease-in-out;
+		transition: 0s ease-in-out;
 	}
 
 	footer .footer-follow .link-icons p {

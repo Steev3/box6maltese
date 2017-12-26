@@ -22,7 +22,8 @@ body {
 }
 
 nav .nav-bar {
-	position: fixed;
+	position:fixed;
+	float: left;
 	width: 100%;
 	height: 64px;
 	top: 0;
@@ -479,81 +480,39 @@ nav .link-extended #ul-inner a {
 		display: none;
 	}
 
-	.quick-contact-mobile {
+	nav .nav-bar .quick-contact-mobile {
 		display: block;
 		position: absolute;
-		top: 72px;
-		left: 0;
-		width: 100%;
-		height: 50px;
-		background-color: #181F1C;
-		z-index: 99;
-		overflow: hidden;
-		-webkit-transition-duration: 0.5s;
-		-moz-transition-duration: 0.5s;
-		-o-transition-duration: 0.5s;
-		-ms-transition-duration: 0.5s;
-		transition-duration: 0.5s;
-		-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
-		0 1px 5px 0 rgba(0,0,0,0.12),
-		0 3px 1px -2px rgba(0,0,0,0.2);
-		-moz-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
-		0 1px 5px 0 rgba(0,0,0,0.12),
-		0 3px 1px -2px rgba(0,0,0,0.2);
-		-o-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
-		0 1px 5px 0 rgba(0,0,0,0.12),
-		0 3px 1px -2px rgba(0,0,0,0.2);
-		-ms-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
-		0 1px 5px 0 rgba(0,0,0,0.12),
-		0 3px 1px -2px rgba(0,0,0,0.2);
-		box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
-		0 1px 5px 0 rgba(0,0,0,0.12),
-		0 3px 1px -2px rgba(0,0,0,0.2);
+		top: 12px;
+		right:10px;
+		width: 48px;
+		height: 48px;
 	}
 
-	.button-contact-open {
-		width: 100%;
-		height: 50px;
+	nav .nav-bar .quick-contact-mobile a {
+		position: relative;
 		float: left;
-	}
-
-	.button-contact-open h3 {
-		float: left;
-		width: 100%;
+		border-radius: 4px;
+		width: 48px;
+		height: 48px;
 		margin: 0;
-		padding: 14.5px 0;
-		font-size: 18px;
-		text-align: center;
-		color: white;
-		text-transform: uppercase;
-		background-color: rgba(255,255,255,0.2);
+		padding: 0;
+		text-decoration: none;
+		-webkit-transition-duration: 0.1s;
+		-moz-transition-duration: 0.1s;
+		-o-transition-duration: 0.1s;
+		-ms-transition-duration: 0.1s;
+		transition-duration: 0.1s;
 	}
 
-	.button-contact-open h3:hover {
-		background-color: rgba(255,255,255,0.4);
+	nav .nav-bar .quick-contact-mobile a:active {
+		box-shadow: 0 0 6px rgba(0,0,0,0.5) inset;
+		background-color: rgba(0,0,0,0.1);
 	}
 
-	.button-contact-close {
-		display: none;
-		width: 100%;
-		height: 50px;
-		float: left;
-	}
-
-	.button-contact-close h3 {
-		float: left;
-		width: 100%;
-		margin: 0;
-		padding: 14.5px 0;
-		font-size: 18px;
-		text-align: center;
-		color: white;
-		text-transform: uppercase;
-		background-color: rgba(255,255,255,0.2);
-	}
-
-	.button-contact-close h3:hover {
-		background-color: rgba(255,255,255,0.4);
+	nav .nav-bar .quick-contact-mobile i {
+		font-size: 48px;
+		color: #181F1C;
 	}
 
 	.quick-contact-mobile ul {
@@ -567,21 +526,6 @@ nav .link-extended #ul-inner a {
 		list-style-type: none;
 		width: 100%;
 		float: left;
-	}
-
-	.quick-contact-mobile a {
-		font-family: 'Montserrat', sans-serif;
-		width: 100%;
-		float: left;
-		color: white;
-		padding: 15px 0;
-		text-align: center;
-		text-decoration: none;
-		border-bottom: 1px solid white;
-	}
-
-	.quick-contact-mobile a:hover {
-		background-color: #329932;
 	}
 
 	.quick-contact-mobile .providers {

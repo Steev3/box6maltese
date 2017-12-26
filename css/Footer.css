@@ -246,34 +246,32 @@ footer .footer-copy #developer a:hover {
 		background-color: #181F1C;
 		text-decoration: none;
 		padding: 20px 0;
+		-webkit-transition: 0s ease-in-out;
+		-moz-transition: 0s ease-in-out;
+		-o-transition: 0s ease-in-out;
+		-ms-transition: 0s ease-in-out;
+		transition: 0s ease-in-out;
 	}
 
 	footer .footer-contacts li .providers a p {
 		margin: 15px 0 0 0;
 	}
 
+	footer .footer-contacts li .providers #telegram-button {
+		webkit-transition: 0s ease-in-out;
+		-moz-transition: 0s ease-in-out;
+		-o-transition: 0s ease-in-out;
+		-ms-transition: 0s ease-in-out;
+		transition: 0s ease-in-out;
+	}
+
 	footer .footer-contacts li .providers #telegram-button:hover {
-		background-color: #181F1C;
-		color: white;
-		-webkit-transition: 0s ease-in-out;
-		-moz-transition: 0s ease-in-out;
-		-o-transition: 0s ease-in-out;
-		-ms-transition: 0s ease-in-out;
-		transition: 0s ease-in-out;
-	}
-
-	footer .footer-contacts li .providers a:hover {
-		background-color: #181F1C;
-		color: white;
-		-webkit-transition: 0s ease-in-out;
-		-moz-transition: 0s ease-in-out;
-		-o-transition: 0s ease-in-out;
-		-ms-transition: 0s ease-in-out;
-		transition: 0s ease-in-out;
-	}
-
-	footer .footer-contacts li .providers #telegram-button:active {
 		background-color: white;
+		-webkit-transition: 0s ease-in-out;
+		-moz-transition: 0s ease-in-out;
+		-o-transition: 0s ease-in-out;
+		-ms-transition: 0s ease-in-out;
+		transition: 0s ease-in-out;
 		-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.1) inset;
 		-moz-box-shadow: 0 0 1px rgba(0,0,0,0.1) inset;
 		-o-box-shadow: 0 0 1px rgba(0,0,0,0.1) inset;
@@ -282,8 +280,13 @@ footer .footer-copy #developer a:hover {
 		color: #181F1C;
 	}
 
-	footer .footer-contacts li .providers a:active {
+	footer .footer-contacts li .providers a:hover {
 		background-color: white;
+		-webkit-transition: 0s ease-in-out;
+		-moz-transition: 0s ease-in-out;
+		-o-transition: 0s ease-in-out;
+		-ms-transition: 0s ease-in-out;
+		transition: 0s ease-in-out;
 		-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.1) inset;
 		-moz-box-shadow: 0 0 1px rgba(0,0,0,0.1) inset;
 		-o-box-shadow: 0 0 1px rgba(0,0,0,0.1) inset;
@@ -310,11 +313,6 @@ footer .footer-copy #developer a:hover {
 	}
 
 	footer .footer-follow .link-icons a:hover {
-		background-color: #181F1C;		
-		color: white;
-	}
-
-	footer .footer-follow .link-icons a:active {
 		background-color: white;
 		color: #181F1C;
 		-webkit-transition: 0s ease-in-out;

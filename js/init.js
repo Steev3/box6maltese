@@ -73,10 +73,7 @@ $(window).resize(function() {
   if(window_width < 976) {
     $(".button-menu-open").css("display","block");
 	$(".button-menu-close").css("display","none");
-	$(".link-mobile").css("height","0");
-	$(".quick-contact-mobile").css("height","50px");
-	$(".button-contact-open").css("display","block");
-	$(".button-contact-close").css("display","none");
+	$(".link-mobile").css("left","-100%");
 	$(".obscurator").css("display","none");
 	$("body").css("overflow","auto");
   } else {
@@ -89,12 +86,8 @@ $(window).resize(function() {
 //Close every menu open on "mobile menu" click
 $(document).ready(function() {
 	$("a").click(function() {
-		$(".link-mobile").css("height","0");
+		$(".link-mobile").css("left","-100%");
 		$(".servizi").css("height","0");
-		$(".quick-contact-mobile").css("height","50px");
-		$(".quick-contact-mobile").css("border-radius","0");
-		$(".button-contact-open").css("display", "block");
-		$(".button-contact-close").css("display", "none");
 		$(".obscurator").fadeOut();
 		$("body").css("overflow","auto");
 	});

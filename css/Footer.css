@@ -233,6 +233,8 @@ footer .footer-copy #developer a:hover {
 
 	footer .footer-contacts li p {
 		letter-spacing: 1px;
+		text-decoration: none;
+		color: white;
 	}
 
 	footer .footer-contacts li .providers p {

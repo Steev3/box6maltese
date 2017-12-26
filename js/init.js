@@ -4,7 +4,7 @@ $(document).ready(function() {
 	$(".button-menu-open").click(function() {
 		$(".link-mobile").css("left","0");
 		$(".link-mobile").css("overflow","auto");
-		$("body").css("overflow","hidden");
+		$("body,html").css("overflow","hidden");
 		$(".button-menu-open").css("display","block");
 		$(".button-menu-close").css("display","block");
 		$(".obscurator").fadeToggle();

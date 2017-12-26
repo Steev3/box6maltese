@@ -2,22 +2,17 @@
 //Animate Mobile Menu
 $(document).ready(function() {
 	$(".button-menu-open").click(function() {
-		$(".link-mobile").css("left","0");
-		$(".link-mobile").css("overflow","auto");
-		$("body").css("overflow","hidden");
-		$(".button-menu-open").css("display","block");
+		$("#mobile-menu").css("height","100%");
+		$(".button-menu-open").css("display","none");
 		$(".button-menu-close").css("display","block");
-		$(".obscurator").fadeToggle();
 	});
 });
 
 $(document).ready(function() {
 	$(".button-menu-close").click(function() {
-		$(".link-mobile").css("left","-100%");
-		$(".link-mobile").css("overflow","auto");
-		$("body").css("overflow","auto");
+		$(".link-mobile").css("height","0");
 		$(".button-menu-open").css("display","block");
-		$(".button-menu-close").css("display","block");
+		$(".button-menu-close").css("display","none");
 		$(".obscurator").fadeToggle();
 	});
 });

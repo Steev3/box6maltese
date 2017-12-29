@@ -1,69 +1,83 @@
 // JavaScript Document
-//Animate Mobile Menu
+//Services menu button extended
 $(document).ready(function() {
-	$(".button-menu-open").click(function() {
-		$("#mobile-menu").css("position","fixed");
-		$("#mobile-menu").css("height","400px");
-		$("#mobile-menu").css("padding","30px 0");
-		$(".button-menu-open").css("display","none");
-		$(".button-menu-close").css("display","block");
+	$("#button-services").click(function() {
+		$(".flyout-content").slideToggle();
 	});
 });
+//Services menu button extended
 
+//Mobile menu activator
 $(document).ready(function() {
-	$(".button-menu-close").click(function() {
-		$(".link-mobile").css("height","0");
-		$(".button-menu-open").css("display","block");
-		$(".button-menu-close").css("display","none");
-		$(".obscurator").fadeToggle();
+	$("#btn-menu").click(function() {
+		$(".navbar-mobile").css("height","362px");
+		$("#ul-mobile").css("height","300px");
+		$("#ul-contact").css("height","0");
+		$("#btn-menu-close").css("display","block");
+		$("#btn-menu").css("display","none");
+		$("#btn-contact").css("display","block");
+		$("#btn-contact-close").css("display","none");
+		$(".obscurator").fadeIn();
 	});
-});
-//Animate Mobile Menu
-
-//Animate Exclusive Menu
-$(document).ready(function() {
-	$("#li-servizi-open").click(function() {
-		$(".servizi").css("height","auto");
-		$("#li-servizi-open").css("display","none");
-		$("#li-servizi-close").css("display","block");
-	});
-});
-
-$(document).ready(function() {
-	$("#li-servizi-close").click(function() {
-		$(".servizi").css("height","0");
-		$("#li-servizi-open").css("display","block");
-		$("#li-servizi-close").css("display","none");
-	});
-});
-//Animate Exclusive Menu
-
-//Animate Mobile Menu Contacts
-$(document).ready(function() {
-	$(".button-contact-open").click(function() {
-		$(".quick-contact-mobile").css("height","auto");
-		$(".quick-contact-mobile").css("border-radius","0 0 4px 4px");
-		$(".button-contact-open").css("display", "none");
-		$(".button-contact-close").css("display", "block");
-	});
-});
-
-$(document).ready(function() {
-	$(".button-contact-close").click(function() {
-		$(".quick-contact-mobile").css("height","50px");
-		$(".quick-contact-mobile").css("border-radius","0");
-		$(".button-contact-open").css("display", "block");
-		$(".button-contact-close").css("display", "none");
-	});
-});
-//Animate Mobile Menu Contacts
-
-$(document).ready(function() {
-	$(".obscurator").click(function() {
-		$(".link-mobile").css("left","-100%");
+	$("#btn-menu-close").click(function() {
+		$(".navbar-mobile").css("height","62px");
+		$("#ul-mobile").css("height","0");
+		$("#btn-menu-close").css("display","none");
+		$("#btn-menu").css("display","block");
 		$(".obscurator").fadeOut();
 	});
 });
+//Mobile menu activator
+
+//Mobile flyout activator
+
+//Mobile flyout activator
+
+//Mobile contacts activator
+$(document).ready(function() {
+	$("#btn-contact").click(function() {
+		$(".navbar-mobile").css("height","362px");
+		$("#ul-mobile").css("height","0");
+		$("#ul-contact").css("height","300px");
+		$("#btn-contact-close").css("display","block");
+		$("#btn-contact").css("display","none");
+		$("#btn-menu").css("display","block");
+		$("#btn-menu-close").css("display","none");
+		$(".obscurator").fadeIn();
+	});
+	$("#btn-contact-close").click(function() {
+		$(".navbar-mobile").css("height","62px");
+		$("#ul-contact").css("height","0");
+		$("#btn-contact-close").css("display","none");
+		$("#btn-contact").css("display","block");
+		$(".obscurator").fadeOut();
+	});
+});
+//Mobile contacts activator
+
+//Brandlogo e obscurator close menu
+$(document).ready(function() {
+	$(".brandlogo-mobile").click(function() {
+		$(".navbar-mobile").css("height","62px");
+		$("#ul-mobile").css("height","0");
+		$("#ul-contact").css("height","0");
+		$("#btn-menu").css("display","block");
+		$("#btn-contact").css("display","block");
+		$("#btn-menu-close").css("display","none");
+		$("#btn-contact-close").css("display","none");
+	});
+	$(".obscurator").click(function() {
+		$(".navbar-mobile").css("height","62px");
+		$("#ul-mobile").css("height","0");
+		$("#ul-contact").css("height","0");
+		$("#btn-menu").css("display","block");
+		$("#btn-contact").css("display","block");
+		$("#btn-menu-close").css("display","none");
+		$("#btn-contact-close").css("display","none");
+		$(".obscurator").fadeOut();
+	});
+});
+//Brandlogo e obscurator close menu
 
 //Remove Mobile Elments by resizing screen
 $(window).resize(function() {

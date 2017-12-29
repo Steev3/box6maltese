@@ -79,20 +79,6 @@ $(document).ready(function() {
 });
 //Brandlogo e obscurator close menu
 
-//Remove Mobile Elments by resizing screen
-$(window).resize(function() {
-  var window_width = $(window).width();
-  if(window_width < 976) {
-    $(".button-menu-open").css("display","block");
-	$(".obscurator").css("display","none");
-	$("body").css("overflow","auto");
-  } else {
-  	$(".button-menu-open").css("display","none");
-	$(".button-menu-close").css("display","none");
-  }
-});
-//Remove Mobile Elments by resizing screen
-
 //Close every menu open on "mobile menu" click
 $(document).ready(function() {
 	$("a").click(function() {

@@ -401,25 +401,47 @@ nav {
 		border-top: 1px solid rgba(0,0,0,0.2);
 	}
 
+	#ul-mobile li a:hover {
+		background-color: #181F1C;
+		color: white;
+	}
+
 	.flyout-mobile {
 		float: left;
 		overflow: hidden;
 	}
 
 	.flyout-mobile > .flyout-content-mobile {
-		display: none;
 		float: left;
 		width: 100%;
+		height: 0;
 		margin: 0;
 		padding: 0;
+		background-color: rgba(0,0,0,0.04);
+		-webkit-transition-duration: 0.5s;
+		-moz-transition-duration: 0.5s;
+		-o-transition-duration: 0.5s;
+		-ms-transition-duration: 0.5s;
+		transition-duration: 0.5s;
+		-webkit-box-shadow: 0 0 6px rgba(0,0,0,0.8) inset;
+		-moz-box-shadow: 0 0 6px rgba(0,0,0,0.8) inset;
+		-o-box-shadow: 0 0 6px rgba(0,0,0,0.8) inset;
+		-ms-box-shadow: 0 0 6px rgba(0,0,0,0.8) inset;
+		box-shadow: 0 0 6px rgba(0,0,0,0.8) inset;
 	}
 
-	.flyout-mobile > a {
+	#ul-mobile .flyout-mobile > .services-on,
+	#ul-mobile .flyout-mobile > .services-off {
 		width: 100%;
 		height: 19px;
 		padding: 15.5px 0;
 		float: left;
+	}
 
+	#ul-mobile .flyout-mobile > .services-off {
+		display: none;
+		background-color: rgba(24,31,28,0.5);
+		color: white;
 	}
 
 	.mobile-contact {

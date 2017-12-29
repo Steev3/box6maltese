@@ -18,7 +18,7 @@ $(document).ready(function() {
 		$("#btn-contact").css("display","block");
 		$("#btn-contact-close").css("display","none");
 		$(".obscurator").fadeIn();
-		$(".site-wrapper").css("overflow-y","hidden")
+		$("body").css("overflow-y","hidden")
 	});
 	$("#btn-menu-close").click(function() {
 		$(".navbar-mobile").css("height","62px");
@@ -26,7 +26,7 @@ $(document).ready(function() {
 		$("#btn-menu-close").css("display","none");
 		$("#btn-menu").css("display","block");
 		$(".obscurator").fadeOut();
-		$(".site-wrapper").css("overflow-y","auto")
+		$("body").css("overflow-y","auto")
 	});
 });
 //Mobile menu activator
@@ -46,7 +46,7 @@ $(document).ready(function() {
 		$("#btn-menu").css("display","block");
 		$("#btn-menu-close").css("display","none");
 		$(".obscurator").fadeIn();
-		$(".site-wrapper").css("overflow-y","hidden")
+		$("body").css("overflow-y","hidden")
 	});
 	$("#btn-contact-close").click(function() {
 		$(".navbar-mobile").css("height","62px");
@@ -54,7 +54,7 @@ $(document).ready(function() {
 		$("#btn-contact-close").css("display","none");
 		$("#btn-contact").css("display","block");
 		$(".obscurator").fadeOut();
-		$(".site-wrapper").css("overflow-y","auto")
+		$("body").css("overflow-y","auto")
 	});
 });
 //Mobile contacts activator
@@ -70,7 +70,7 @@ $(document).ready(function() {
 		$("#btn-menu-close").css("display","none");
 		$("#btn-contact-close").css("display","none");
 		$(".obscurator").fadeOut();
-		$(".site-wrapper").css("overflow-y","auto")
+		$("body").css("overflow-y","auto")
 	});
 	$(".obscurator").click(function() {
 		$(".navbar-mobile").css("height","62px");
@@ -81,7 +81,7 @@ $(document).ready(function() {
 		$("#btn-menu-close").css("display","none");
 		$("#btn-contact-close").css("display","none");
 		$(".obscurator").fadeOut();
-		$(".site-wrapper").css("overflow-y","auto")
+		$("body").css("overflow-y","auto")
 	});
 });
 //Brandlogo e obscurator close menu

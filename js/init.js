@@ -78,15 +78,3 @@ $(document).ready(function() {
 	});
 });
 //Brandlogo e obscurator close menu
-
-//Close every menu open on "mobile menu" click
-$(document).ready(function() {
-	$("a").click(function() {
-		$(".link-mobile").css("left","-100%");
-		$(".servizi").css("height","0");
-		$(".obscurator").fadeOut();
-		$("body").css("overflow","auto");
-	});
-});
-//Close every menu open on "mobile menu" click
-

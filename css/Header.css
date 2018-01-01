@@ -97,7 +97,7 @@ nav {
 	list-style-type: none;
 }
 
-#ul-extended > li > a {
+#ul-extended li > a {
 	height: 72px;
 	text-decoration: none;
 	color: #181F1C;
@@ -160,7 +160,7 @@ nav {
 	list-style-type: none;
 }
 
-.flyout-content > li > a {
+.flyout-content li > a {
 	width: 320px;
 	height: 72px;
 	display: table-cell;
@@ -377,6 +377,7 @@ nav {
 		overflow-y: auto;
 		margin: 0;
 		padding: 0;
+		background-color: rgba(0,0,0,0.05);
 		-webkit-transition-duration: 0.5s;
 		-moz-transition-duration: 0.5s;
 		-o-transition-duration: 0.5s;
@@ -411,13 +412,12 @@ nav {
 		overflow: hidden;
 	}
 
-	.flyout-mobile > .flyout-content-mobile {
+	#ul-mobile .flyout-mobile > .flyout-content-mobile {
 		float: left;
 		width: 100%;
 		height: 0;
 		margin: 0;
 		padding: 0;
-		background-color: rgba(0,0,0,0.04);
 		-webkit-transition-duration: 0.5s;
 		-moz-transition-duration: 0.5s;
 		-o-transition-duration: 0.5s;
@@ -428,6 +428,10 @@ nav {
 		-o-box-shadow: 0 0 6px rgba(0,0,0,0.8) inset;
 		-ms-box-shadow: 0 0 6px rgba(0,0,0,0.8) inset;
 		box-shadow: 0 0 6px rgba(0,0,0,0.8) inset;
+	}
+
+	#ul-mobile .flyout-mobile > .flyout-content-mobile li {
+		background-color: rgba(0,0,0,0.09);
 	}
 
 	#ul-mobile .flyout-mobile > .services-on,
@@ -522,116 +526,17 @@ nav {
 }
 
 @media only screen and (max-width : 600px) {
-
-	nav .nav-bar {
-		height: 52px;
-	}
-
-	nav .nav-bar .brand-logo {
-		width: 50%;
-		margin: 0 25%;
-	}
-
-	nav .nav-bar .link-extended {
+	.navbar-extended {
 		display: none;
 	}
 
-	nav .nav-bar .button-menu-open {
-		top: 2px;
+	.brandlogo-mobile {
+		width: 60%;
+		margin: 0 20%;
 	}
 
-	nav .nav-bar .link-mobile .inner-nav-bar-menu {
-		height: 52px;
-	}
-
-	nav .nav-bar .link-mobile .inner-nav-bar-menu .button-menu-close {
-		display: block;
-		position: absolute;
-		top: 2px;
-		left:10px;
-		width: 48px;
-		height: 48px;
-	}
-
-	nav .nav-bar .link-mobile .inner-nav-bar-menu .button-menu-close i {
-		font-size: 48px;
-		color: #181F1C;
-	}
-
-	nav .nav-bar .link-mobile .inner-nav-bar-menu .brand-logo a {
-		font-size: 20px;
-		padding: 3.5px 0;
-		display: table-cell;
-		vertical-align: middle;
-	}
-
-	nav .nav-bar .link-mobile ul {
-		width: 100%;
-		height: auto;
-		position: relative;
-		float: left;
-		margin: 0;
-		padding: 0;
-	}
-
-	nav .nav-bar .link-mobile li {
-		width: 100%;
-		position: relative;
-		float: left;
-		list-style-type: none;
-	}
-
-	nav .nav-bar .link-mobile #li-servizi a:hover {
-		background-color: white;
-		color: #181F1C;
-	}
-
-	nav .nav-bar .link-mobile a {
-		width: 100%;
-		position: relative;
-		float: left;
-		color: #181F1C;
-		text-align: center;
-		text-decoration: none;
-		font-size: 16px;
-		padding: 15px 0;
-		-webkit-transition-duration: 0.2s;
-		-moz-transition-duration: 0.2s;
-		-o-transition-duration: 0.2s;
-		-ms-transition-duration: 0.2s;
-		transition-duration: 0.2s;
-	}
-
-	nav .nav-bar .link-mobile a:hover {
-		background-color: #181F1C;
-		color: white;
-		-webkit-transition-duration: 0.2s;
-		-moz-transition-duration: 0.2s;
-		-o-transition-duration: 0.2s;
-		-ms-transition-duration: 0.2s;
-		transition-duration: 0.2s;
-	}
-
-	nav .nav-bar .link-mobile a sup {
-		border-radius: 4px;
-		border: 1px solid #181F1C;
-	}
-
-	.quick-contact {
-		display: none;
-	}
-
-	.quick-contact-mobile {
-		top: 52px;
-	}
-
-	.quick-contact-mobile .providers a {
+	.mobile-contact .providers > a {
 		width: 50%;
-	}
-
-	.quick-contact-mobile .providers .telefono,
-	.quick-contact-mobile .providers .whatsapp {
-		border-bottom: 0;
 	}
 }
 	
@@ -644,6 +549,5 @@ nav {
 		position: relative;
 		float:right;
 	}
-
 }
 /*Header*/

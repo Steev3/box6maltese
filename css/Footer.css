@@ -214,86 +214,7 @@ footer .footer-copy #developer a:hover {
 
 	
 	footer .footer-contacts {
-		padding-top: 50px;
-	}
-
-	footer .footer-contacts li {
-		width: 100%;
-		margin: 0;
-		float: left;
-		position: relative;
-	}
-
-	footer .footer-contacts li .providers {
-		width: 70%;
-		margin: 30px 15%;
-		position: relative;
-		float: left;
-	}
-
-	footer .footer-contacts li p {
-		letter-spacing: 1px;
-		text-decoration: none;
-	}
-
-	footer .footer-contacts li .providers p {
-		text-align: center;
-		letter-spacing: 1px;
-		font-size: 0.5em;
-	}
-
-	footer .footer-contacts li .providers a {
-		width: 25%;
-		background-color: #181F1C;
-		text-decoration: none;
-		padding: 20px 0;
-		-webkit-transition: 0s ease-in-out;
-		-moz-transition: 0s ease-in-out;
-		-o-transition: 0s ease-in-out;
-		-ms-transition: 0s ease-in-out;
-		transition: 0s ease-in-out;
-	}
-
-	footer .footer-contacts li .providers a p {
-		margin: 15px 0 0 0;
-	}
-
-	footer .footer-contacts li .providers #telegram-button {
-		webkit-transition: 0s ease-in-out;
-		-moz-transition: 0s ease-in-out;
-		-o-transition: 0s ease-in-out;
-		-ms-transition: 0s ease-in-out;
-		transition: 0s ease-in-out;
-	}
-
-	footer .footer-contacts li .providers #telegram-button:hover {
-		background-color: white;
-		-webkit-transition: 0s ease-in-out;
-		-moz-transition: 0s ease-in-out;
-		-o-transition: 0s ease-in-out;
-		-ms-transition: 0s ease-in-out;
-		transition: 0s ease-in-out;
-		-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.1) inset;
-		-moz-box-shadow: 0 0 1px rgba(0,0,0,0.1) inset;
-		-o-box-shadow: 0 0 1px rgba(0,0,0,0.1) inset;
-		-ms-box-shadow: 0 0 1px rgba(0,0,0,0.1) inset;
-		box-shadow: 0 0 1px rgba(0,0,0,0.1) inset;
-		color: #181F1C;
-	}
-
-	footer .footer-contacts li .providers a:hover {
-		background-color: white;
-		-webkit-transition: 0s ease-in-out;
-		-moz-transition: 0s ease-in-out;
-		-o-transition: 0s ease-in-out;
-		-ms-transition: 0s ease-in-out;
-		transition: 0s ease-in-out;
-		-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.1) inset;
-		-moz-box-shadow: 0 0 1px rgba(0,0,0,0.1) inset;
-		-o-box-shadow: 0 0 1px rgba(0,0,0,0.1) inset;
-		-ms-box-shadow: 0 0 1px rgba(0,0,0,0.1) inset;
-		box-shadow: 0 0 1px rgba(0,0,0,0.1) inset;
-		color: #181F1C;
+		display: none;
 	}
 
 	footer .footer-follow .link-icons {
@@ -336,27 +257,8 @@ footer .footer-copy #developer a:hover {
 
 @media only screen and (max-width : 600px) {
 
-	footer .footer-contacts li .providers {
-		width: 100%;
-		margin: 30px 0;
-		position: relative;
-		float: left;
-	}
-
-	footer .footer-contacts li p {
-		font-size: 1.2em;
-	}
-
-	footer .footer-contacts li .providers a {
-		width: 50%;
-		float: left;
-		background-color: #181F1C;
-		text-decoration: none;
-		padding: 20px 0;
-	}
-
-	footer .footer-contacts li .providers a p {
-		margin: 30px 0 0 0;
+	footer .footer-contacts {
+		display: none;
 	}
 
 	footer .footer-follow .link-icons {

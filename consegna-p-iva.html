@@ -28,52 +28,74 @@
 	<div id="top"></div>
 	<div class="obscurator"></div>
 	<nav>
-		<div class="nav-bar">
-			<div class="button-menu-open">
-				<i class="material-icons">menu</i>
-			</div>
-			<div class="brand-logo">
+		<div class="navbar-extended">
+			<div class="brandlogo-extended">
 				<a href="#top">BOX6 <span>Maltese</span></a>
 			</div>
-			<div class="link-extended">
-				<ul id="ul-outer">
-					<li><a href="home.html">Home</a></li>
-					<li><a href="#chi-siamo">Chi siamo</a></li>
-					<li><a href="#perche-sceglierci">Perch&egrave; sceglierci</a></li>
-					<li><a href="#dove-trovarci">Dove siamo</a></li>
-					<li><a href="#time">Orario</a></li>
-					<li><a href="#contatti">Contattaci</a></li>
-					<li id="li-servizi-open"><b>Servizi Esclusivi<sup>In arrivo</sup></b></li>
-					<li id="li-servizi-close"><b>Servizi Esclusivi<sup>In arrivo</sup></b></li>
-				</ul>
-				<div class="servizi">
-					<ul id="ul-inner">
-						<li><a href="#commercial-delivery" id="link-commercial"><b>Consegna a domicilio - Partita IVA</b><sup>In arrivo</sup></a></li>
-						<li><a href="private-delivery" id="link-private"><b>Consegna a domicilio - Privati</b><sup>In arrivo</sup></a>
+			<ul id="ul-extended">
+				<li class="flyout"><a id="button-services" href="#!"><b>Servizi Esclusivi*</b></a>
+					<ul class="flyout-content">
+						<li><a href="consegna-p-iva.html" id="link-commercial"><b>Consegna a domicilio - Partita IVA</b><sup>In arrivo</sup></a></li>
+						<li><a href="private-delivery" id="link-private"><b>Consegna domicilio - Privati</b><sup>In arrivo</sup></a></li>
 					</ul>
-				</div>
+				</li>
+				<li><a href="#contatti">Contattaci</a></li>
+				<li><a href="#time">Orario</a></li>
+				<li><a href="#dove-trovarci">Dove siamo</a></li>
+				<li><a href="#perche-sceglierci">Perch&egrave; sceglierci</a></li>
+				<li><a href="#chi-siamo">Chi siamo</a></li>
+				<li><a href="home.html">Home</a></li>
+			</ul>
+		</div>
+		<div class="navbar-mobile">
+			<div id="btn-menu">
+				<i class="material-icons">menu</i>
 			</div>
-			<div class="link-mobile">
-				<div class="inner-nav-bar-menu">
-					<div class="button-menu-close">
-						<i class="material-icons">close</i>
-					</div>
-					<div class="brand-logo">
-						<a href="#top">BOX6 <span>Maltese</span></a>
-					</div>
-				</div>
-				<ul>
-					<li><a href="home.html">Home</a></li>
-					<li><a href="#chi-siamo">Chi siamo</a></li>
-					<li><a href="#perche-sceglierci">Perch&egrave; sceglierci</a></li>
-					<li><a href="#dove-trovarci">Dove siamo</a></li>
-					<li><a href="#time">Orario</a></li>
-					<li><a href="#contatti">Contattaci</a></li>
-					<li id="li-servizi"><a><b>Servizi Esclusivi <sup>In arrivo</sup></b></a></li>
-					<ul id="ul-servizi">
-						<li><a href="#commercial-delivery" id="link-commercial"><b>Consegna a domicilio - Partita IVA <sup>In arrivo</sup></b></a></li>
-						<li><a href="private-delivery" id="link-private"><b>Consegna a domicilio - Privati <sup>In arrivo</b></sup></a>
+			<div id="btn-menu-close">
+				<i class="material-icons">close</i>
+			</div>
+			<div class="brandlogo-mobile">
+				<a href="#top">BOX6 <span>Maltese</span></a>
+			</div>
+			<div id="btn-contact">
+				<i class="material-icons">phone</i>
+			</div>
+			<div id="btn-contact-close">
+				<i class="material-icons">close</i>
+			</div>
+			<ul id="ul-mobile">
+				<li><a href="home.html">Home</a></li>
+				<li><a href="#chi-siamo">Chi siamo</a></li>
+				<li><a href="#perche-sceglierci">Perch&egrave; sceglierci</a></li>
+				<li><a href="#dove-trovarci">Dove siamo</a></li>
+				<li><a href="#time">Orario</a></li>
+				<li class="flyout-mobile">
+					<a href="#!" class="services-on"><b>Servizi Esclusivi*</b></a>
+					<a href="#!" class="services-off"><b>Servizi Esclusivi*</b></a>
+					<ul class="flyout-content-mobile">
+						<li><a href="consegna-p-iva.html"><b>Consegna a domicilio - Partita IVA <sup>In arrivo</sup></b></a></li>
+						<li><a href="private-delivery"><b>Consegna a domicilio - Privati <sup>In arrivo</b></sup></a></li>
 					</ul>
+				</li>
+			</ul>
+			<div class="mobile-contact">
+				<ul id="ul-contact">
+					<li><p>DARIO: 3925467049</p>
+						<div class="providers">
+							<a href="tel:+393925467049"><i class="fa fa-phone" aria-hidden="true"></i><br><p>Telefono</p></a>
+							<a href="https://api.whatsapp.com/send?phone=393925467049" target="blank"><i class="fa fa-whatsapp" aria-hidden="true" title="Whatsapp"></i><br><p>Whatsapp</p></a>
+							<a id="telegram-button" href="https://telegram.im/@dar10maltese" target="_blank" class="telegramim_button" title=""><i></i><br><p>Telegram</p></a>
+							<a href="mailto:dariomaltese@icloud.com"><i class="fa fa-envelope" aria-hidden="true" title="Email"></i><br><p>Email</p></a>
+						</div>
+					</li>
+					<li><p>STEFANO: 3930220893</p>
+						<div class="providers">
+							<a href="tel:+393930220893"><i class="fa fa-phone" aria-hidden="true"></i><br><p>Telefono</p></a>
+							<a href="https://api.whatsapp.com/send?phone=393930220893" target="blank"><i class="fa fa-whatsapp" aria-hidden="true" title="Whatsapp"></i><br><p>Whatsapp</p></a>
+							<a id="telegram-button" href="https://telegram.im/@SteeveMaltese" target="_blank" class="telegramim_button" title=""><i></i><br><p>Telegram</p></a>
+							<a href="mailto:steeve_1@icloud.com"><i class="fa fa-envelope" aria-hidden="true" title="Email"></i><br><p>Email</p></a>
+						</div>
+					</li>
 				</ul>
 			</div>
 		</div>

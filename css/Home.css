@@ -152,6 +152,7 @@ html, body {
 	border-bottom: 1px solid rgba(0,0,0,0.25);
 }
 
+#onesta,
 #qualita,
 #varieta,
 #risparmio,
@@ -159,50 +160,54 @@ html, body {
 #gestione-ordini {
 	float: left;
 	width: 30%;
-	height: auto;
+	height: 270px;
 }
 
+#onesta,
 #qualita,
-#varieta,
-#supporto,
-#gestione-ordini {
+#risparmio,
+#supporto {
 	margin-right: 5%;
 }
 
-#qualita .img-cont-1,
-#varieta .img-cont-2,
-#risparmio .img-cont-3,
-#supporto .img-cont-4 {
+#onesta .img-cont-1,
+#qualita .img-cont-2,
+#varieta .img-cont-3,
+#risparmio .img-cont-4,
+#supporto .img-cont-5 {
 	width: 100%;
 	display: table;
 }
 
-#gestione-ordini .img-cont-5 {
+#gestione-ordini .img-cont-6 {
 	width: 100%;
 	height: 48px;
 	display: table;
 }
 
-#qualita .img-cont-1 img,
-#varieta .img-cont-2 img,
-#risparmio .img-cont-3 img,
-#supporto .img-cont-4 img {
+#onesta .img-cont-1 img,
+#qualita .img-cont-2 img,
+#varieta .img-cont-3 img,
+#risparmio .img-cont-4 img,
+#supporto .img-cont-5 img {
 	display: table-cell;
 	vertical-align: middle;
 	margin: 0 auto;
 	padding-top: 20px;
 }
 
-#gestione-ordini .img-cont-5 i.material-icons {
+#gestione-ordini .img-cont-6 i.material-icons {
 	width: 100%;
 	font-size: 48px;
 	text-align: center;
 	color: #329932;
+	padding-top: 20px;
 	margin: 0 auto;
 	display: table-cell;
 	vertical-align: middle;
 }
 
+#onesta h2,
 #qualita h2,
 #varieta h2,
 #risparmio h2,
@@ -213,6 +218,7 @@ html, body {
 	color: #329932;
 } 
 
+#onesta h3,
 #qualita h3,
 #varieta h3,
 #risparmio h3,
@@ -380,9 +386,7 @@ table, th, td {
 
 @media only screen and (max-width : 992px) {
 
-	.parallax-index,
-	.text-index,
-	#bottom-line {
+	.parallax-index {
 			display: none;
 	}
 
@@ -404,7 +408,7 @@ table, th, td {
 
 	.mobile-img-index .img-container img {
 		height: auto;
-		width: 1200px;
+		width: 992px;
 		float: left;
 	}
 
@@ -413,11 +417,12 @@ table, th, td {
 		width: 95%;
 		top: 240px;
 		left: 50%;
-		font-size: 2.3em;
+		font-size: 2em;
 		letter-spacing: 2px;
 		color: white;
+		word-wrap: break-word;
 		text-align: center;
-		font-weight: bold;
+		font-weight: 400;
 		text-transform: uppercase;
 		transform: translate(-50%,-100px);
 		text-shadow: 0 2px 6px rgba(0,0,0,0.5);
@@ -427,7 +432,7 @@ table, th, td {
 		font-family: 'Cookie', cursive;
 		text-transform: capitalize;
 		font-weight: 300;
-		font-size: 2.2em;
+		font-size: 2.5em;
 	}
 
 	h4 {
@@ -452,6 +457,13 @@ table, th, td {
 		margin-right: 2.5%;
 	}
 
+	.info p {
+		font-size: 1.6em;
+		text-align: center;
+		line-height: 1.5;
+	}
+
+	#onesta,
 	#qualita,
 	#varieta,
 	#risparmio,
@@ -464,6 +476,7 @@ table, th, td {
 		margin: 2.5%;
 	}
 
+	#onesta h2,
 	#qualita h2,
 	#varieta h2,
 	#risparmio h2,
@@ -474,15 +487,17 @@ table, th, td {
 }
 
 @media screen and (max-width: 600px) {
-	
-	.text-index h2 {
-		font-size: 1.8em;
-		word-wrap: break-word;
+	.parallax-index {
+		display: none;
 	}
 
-	.text-index h4 {
-		font-size: 1.6em;
-		word-wrap: break-word;
+	.mobile-img-index .img-container img {
+		width: 900px;
+		margin-left: -150px;
+	}
+
+	h4 {
+		font-size: 2.3em;
 	}
 
 	.container {
@@ -492,6 +507,7 @@ table, th, td {
 		margin-right: 1%;
 	}
 
+	#onesta,
 	#qualita,
 	#varieta,
 	#risparmio,
@@ -504,6 +520,7 @@ table, th, td {
 		height: auto;
 	}
 
+	#onesta h2,
 	#qualita h2,
 	#varieta h2,
 	#risparmio h2,
@@ -512,6 +529,7 @@ table, th, td {
 		font-weight: 400;
 	} 
 	
+	#onesta h3,
 	#qualita h3,
 	#varieta h3,
 	#risparmio h3,
@@ -519,5 +537,23 @@ table, th, td {
 	#gestione-ordini h3 {
 		font-size: 1.3em;
 		font-weight: 400;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	.parallax-index {
+		display: none;
+	}
+
+	.mobile-img-index h2 {
+		-webkit-transform: translate(-50%,-150px);
+		-moz-transform: translate(-50%,-150px);
+		-o-transform: translate(-50%,-150px);
+		-ms-transform: translate(-50%,-150px);
+		transform: translate(-50%,-150px);
+	}
+
+	h4 {
+		font-size: 1.9em;
 	}
 }

@@ -229,6 +229,7 @@ html, body {
 	float: left;
 	width: 100%;
 	font-weight: 400;
+	padding: 0 20px;
 	text-align: center;
 	color: #329932;
 } 

@@ -112,3 +112,54 @@ $(document).ready(function() {
 	});
 });
 //Brandlogo e obscurator close menu
+
+//User Agent
+$(document).ready(function() {
+
+	var isMobile = {
+	    Android: function() {
+	        return navigator.userAgent.match(/Android/i);
+	    },
+	    BlackBerry: function() {
+	        return navigator.userAgent.match(/BlackBerry/i);
+	    },
+	    iOS: function() {
+	        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+	    },
+	    Opera: function() {
+	        return navigator.userAgent.match(/Opera Mini/i);
+	    },
+	    Windows: function() {
+	        return navigator.userAgent.match(/IEMobile/i);
+	    },
+	    any: function() {
+	        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+	    }
+	};
+
+	if (isMobile.Android()) {
+      $(".mobile-img-index").css("display","block");
+      $(".parallax-index").css("display","none");
+	};
+
+	if (isMobile.BlackBerry()) {
+      $(".mobile-img-index").css("display","block");
+      $(".parallax-index").css("display","none");
+	};
+
+	if (isMobile.iOS()) {
+      $(".mobile-img-index").css("display","block");
+      $(".parallax-index").css("display","none");
+	};
+
+	if (isMobile.Opera()) {
+      $(".mobile-img-index").css("display","block");
+      $(".parallax-index").css("display","none");
+	};
+
+	if (isMobile.Windows()) {
+      $(".mobile-img-index").css("display","block");
+      $(".parallax-index").css("display","none");
+	};
+});
+//User Agent

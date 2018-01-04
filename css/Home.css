@@ -229,7 +229,6 @@ html, body {
 	float: left;
 	width: 100%;
 	font-weight: 400;
-	padding: 0 20px;
 	text-align: center;
 	color: #329932;
 } 
@@ -255,7 +254,7 @@ html, body {
 	font-weight: 400;
 	text-align: justify;
 	line-height: 1.5;
-	padding: 0 20px;
+	padding: 0 5%;
 	display: table-cell;
 	vertical-align: middle;
 }
@@ -513,7 +512,10 @@ table, th, td {
 	#risparmio h2,
 	#supporto h2,
 	#gestione-ordini h2 {
+		width: 95%;
 		font-weight: 400;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
 	}
 }
 

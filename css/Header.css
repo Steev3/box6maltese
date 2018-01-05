@@ -108,7 +108,7 @@ nav {
 	transition: 0.2s ease-in-out;
 }
 
-#ul-extended > li > a:hover {
+#ul-extended li > a:hover {
 	background-color: rgba(0,0,0,0.3);
 	color: white;
 	-webkit-transition: 0.2s ease-in-out;
@@ -175,7 +175,7 @@ nav {
 	
 }
 
-.flyout-content > li > a:hover {
+.flyout-content li > a:hover {
 	background-color: rgba(0,0,0,0.3);
 	color: white;
 	-webkit-transition: 0.2s ease-in-out;
@@ -202,7 +202,7 @@ nav {
 	color: white;
 	font-size: 16px;
 	font-weight: 400;
-	margin-left: 40px;
+	margin-left: 10px;
 	padding: 10.5px 10px;
 }
 
@@ -233,7 +233,7 @@ nav {
 }
 
 .quick-contact #li-stef {
-	margin-right: 40px;
+	margin-right: 20px;
 }
 
 .quick-contact a {

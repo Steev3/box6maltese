@@ -42,10 +42,10 @@ html, body {
 }
 
 .mobile-img-index h2 {
-	position: absolute;
+	position: relative;
 	width: 95%;
-	top: 50%;
-	left: 50%;
+	display: table-cell;
+	vertical-align: middle;
 	font-size: 2em;
 	letter-spacing: 2px;
 	color: white;
@@ -53,7 +53,6 @@ html, body {
 	text-align: center;
 	font-weight: 400;
 	text-transform: uppercase;
-	transform: translate(-50%,-50px);
 	text-shadow: 0 2px 6px rgba(0,0,0,0.5);
 }
 
@@ -538,6 +537,7 @@ table, th, td {
 	}
 
 	#h4-under-title {
+		display: block;
 		position: relative;
 		float: left;
 		font-family: 'Indie Flower', cursive;

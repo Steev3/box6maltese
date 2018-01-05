@@ -604,6 +604,7 @@ table, th, td {
 	#gestione-ordini h3 {
 		font-size: 1.3em;
 		font-weight: 400;
+		padding: 20px;
 	}
 }
 

@@ -214,6 +214,7 @@ nav {
 	background-color: #181F1C;
 	box-shadow: 1px 1px 3px black inset;
 	z-index: 99;
+	border-bottom: 1px solid #329932;
 }
 
 .quick-contact ul {

@@ -609,21 +609,3 @@ table, th, td {
 		padding: 20px;
 	}
 }
-
-@media screen and (max-width: 300px) {
-	.parallax-index {
-		display: none;
-	}
-
-	.mobile-img-index h2 {
-		-webkit-transform: translate(-50%,-150px);
-		-moz-transform: translate(-50%,-150px);
-		-o-transform: translate(-50%,-150px);
-		-ms-transform: translate(-50%,-150px);
-		transform: translate(-50%,-150px);
-	}
-
-	h4 {
-		font-size: 1.9em;
-	}
-}

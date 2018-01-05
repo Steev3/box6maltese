@@ -53,6 +53,7 @@ html, body {
 
 .mobile-img-index span {
 	font-family: 'Cookie', cursive;
+	color: #329932;
 	text-transform: capitalize;
 	font-weight: 300;
 	font-size: 2.5em;
@@ -101,6 +102,7 @@ html, body {
 
 .text-index span {
 	font-family: 'Cookie', cursive;
+	color: #329932;
 	text-transform: capitalize;
 	font-weight: 300;
 	font-size: 2.2em;

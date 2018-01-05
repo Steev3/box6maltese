@@ -20,6 +20,7 @@ html, body {
 }
 
 .mobile-img-index {
+	display: none;
 	float: left;
 	width: 100%;
 	height: 500px;
@@ -307,7 +308,7 @@ html, body {
 	width: 100%;
 	height: 50%;
 	float: left;
-	background-color: rgba(0,0,0,0.02);
+	background-color: #329932;
 	box-sizing: border-box;
 }
 
@@ -317,6 +318,7 @@ html, body {
 #risparmio h3,
 #supporto h3,
 #gestione-ordini h3 {
+	color: white;
 	font-weight: 400;
 	text-align: justify;
 	line-height: 1.5;

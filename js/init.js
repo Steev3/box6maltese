@@ -139,26 +139,31 @@ $(document).ready(function() {
 
 	if (isMobile.Android()) {
       $(".mobile-img-index").css("display","block");
+      $("#h4-under-title").css("display","block");
       $(".parallax-index").css("display","none");
 	};
 
 	if (isMobile.BlackBerry()) {
       $(".mobile-img-index").css("display","block");
+      $("#h4-under-title").css("display","block");
       $(".parallax-index").css("display","none");
 	};
 
 	if (isMobile.iOS()) {
       $(".mobile-img-index").css("display","block");
+      $("#h4-under-title").css("display","block");
       $(".parallax-index").css("display","none");
 	};
 
 	if (isMobile.Opera()) {
       $(".mobile-img-index").css("display","block");
+      $("#h4-under-title").css("display","block");
       $(".parallax-index").css("display","none");
 	};
 
 	if (isMobile.Windows()) {
       $(".mobile-img-index").css("display","block");
+      $("#h4-under-title").css("display","block");
       $(".parallax-index").css("display","none");
 	};
 });

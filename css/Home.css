@@ -20,7 +20,6 @@ html, body {
 }
 
 .mobile-img-index {
-	display: none;
 	float: left;
 	width: 100%;
 	height: 500px;
@@ -503,20 +502,26 @@ table, th, td {
 		float: left;
 	}
 
-	.mobile-img-index h2 {
-		position: absolute;
-		width: 95%;
-		top: 240px;
-		left: 50%;
-		font-size: 2em;
+	.mobile-text-index {
+		background-image: url("images/background1-alternate.jpg");
+		width: 100%;
+		height: 500px;
+		display: table;
+		float: left;
+	}
+
+	.mobile-text-index h2 {
+		margin: 0;
+		width: 100%;
+		font-size: 2.3em;
 		letter-spacing: 2px;
 		color: white;
-		word-wrap: break-word;
 		text-align: center;
-		font-weight: 400;
+		font-weight: bold;
 		text-transform: uppercase;
-		transform: translate(-50%,-50px);
-		text-shadow: 0 2px 6px rgba(0,0,0,0.5);
+		display: table-cell;
+		vertical-align: middle;
+		text-shadow: 1px 1px 3px #000;
 	}
 
 	.mobile-img-index span {

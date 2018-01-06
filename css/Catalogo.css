@@ -130,9 +130,75 @@
 }
 
 .img-cont img {
-	width: 70%;
+	width: 80%;
 	margin: 0 auto;
 	display: table-cell;
+}
+
+#melagrano img,
+#cavolfiore-b img,
+#canasta img {
+	width: 45%;
+}
+
+#borlotto img {
+	width: 50%;
+}
+
+#pesca img,
+#susina-n img,
+#italia img,
+#matilde img,
+#cavolfiore-v img,
+#cicoria img,
+#cipolla-bianca img,
+#casolino img,
+#pepe-friggitel img {
+	width: 55%;
+}
+
+#minianguria img,
+#ficodindia img,
+#limone-g img,
+#limone-v img,
+#mandarance img,
+#nova img,
+#tarocco img,
+#basilico img,
+#broccolo img,
+#cime img,
+#lattuga img,
+#indivia img,
+#prezzemolo img,
+#rucola img,
+#patata img,
+#zucca-spinosa img {
+	width: 60%;
+}
+
+#mandarino img,
+#miyagawa img,
+#melacotogna img,
+#vittoria img,
+#red-globe img,
+#spinacia img,
+#aglio img,
+#carciofo img,
+#cipolla-dorata img,
+#piattella img,
+#finocchio img,
+#melanzana-viola img,
+#pomo-tondo img,
+#verza img,
+#zucca-gialla img,
+#zucchina-verde img {
+	width: 65%;
+}
+
+#cetrangolo img,
+#pepe-cornetto-rosso img,
+#zucchina-lunga img {
+	width: 70%;
 }
 
 .img-text {
@@ -158,13 +224,150 @@
 		margin: 1.5% 1%;
 	}
 
+	.img-cont img {
+		width: 55%;
+	}
+
+	#melagrano img,
+	#cavolfiore-b img,
+	#canasta img {
+		width: 35%;
+	}
+
+	#borlotto img {
+		width: 40%;
+	}
+
+	#pesca img,
+	#susina-n img,
+	#italia img,
+	#matilde img,
+	#cavolfiore-v img,
+	#cicoria img,
+	#cipolla-bianca img,
+	#casolino img,
+	#pepe-friggitel img {
+		width: 45%;
+	}
+
+	#minianguria img,
+	#ficodindia img,
+	#limone-g img,
+	#limone-v img,
+	#mandarance img,
+	#nova img,
+	#tarocco img,
+	#basilico img,
+	#broccolo img,
+	#cime img,
+	#lattuga img,
+	#indivia img,
+	#prezzemolo img,
+	#rucola img,
+	#patata img,
+	#zucca-spinosa img {
+		width: 50%;
+	}
+
+	#mandarino img,
+	#miyagawa img,
+	#melacotogna img,
+	#vittoria img,
+	#red-globe img,
+	#spinacia img,
+	#aglio img,
+	#carciofo img,
+	#cipolla-dorata img,
+	#piattella img,
+	#finocchio img,
+	#melanzana-viola img,
+	#pomo-tondo img,
+	#verza img,
+	#zucca-gialla img,
+	#zucchina-verde img,
+	#zucchina-lunga img {
+		width: 55%;
+	}
+
+	#cetrangolo img,
+	#pepe-cornetto-rosso img {
+		width: 70%;
+	}
+
 }
 
 @media only screen and (max-width : 600px) {
 
+	.img-cont img {
+		width: 50%;
+	}
+
 	.catalogue-elem {
 		width: calc(96% - 2px);
 		margin: 1.5% 2%;
+	}
+
+	#melagrano img,
+	#cavolfiore-b img,
+	#canasta img {
+		width: 30%;
+	}
+
+	#pesca img,
+	#susina-n img,
+	#italia img,
+	#matilde img,
+	#cavolfiore-v img,
+	#cicoria img,
+	#cipolla-bianca img,
+	#borlotto img,
+	#casolino img,
+	#pepe-friggitel img {
+		width: 35%;
+	}
+
+	#minianguria img,
+	#ficodindia img,
+	#limone-g img,
+	#limone-v img,
+	#mandarance img,
+	#nova img,
+	#tarocco img,
+	#basilico img,
+	#broccolo img,
+	#cime img,
+	#lattuga img,
+	#indivia img,
+	#prezzemolo img,
+	#rucola img,
+	#patata img,
+	#zucca-spinosa img {
+		width: 40%;
+	}
+
+	#mandarino img,
+	#miyagawa img,
+	#melacotogna img,
+	#vittoria img,
+	#red-globe img,
+	#spinacia img,
+	#aglio img,
+	#carciofo img,
+	#cipolla-dorata img,
+	#piattella img,
+	#finocchio img,
+	#melanzana-viola img,
+	#pomo-tondo img,
+	#verza img,
+	#zucca-gialla img,
+	#zucchina-verde img,
+	#zucchina-lunga img {
+		width: 45%;
+	}
+
+	#cetrangolo img,
+	#pepe-cornetto-rosso img {
+		width: 60%;
 	}
 
 }

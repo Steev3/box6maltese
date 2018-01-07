@@ -11,16 +11,25 @@
 	width: 48px;
 	height: 48px;
 	position: fixed;
-	right: 30px;
+	right: -80px;
 	bottom: 30px;
 	border-radius: 10px;
 	border: 1px solid #329932;
-	background-color: #181F1C;
+	background-color: rgba(24,31,28,0.5);
+	-webkit-transition: 0.5s ease-in-out;
+	-moz-transition: 0.5s ease-in-out;
+	-o-transition: 0.5s ease-in-out;
+	-ms-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
 	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
 	-moz-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
 	-o-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
 	-ms-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
 	box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+}
+
+.elevator:hover {
+	background-color: rgba(24,31,28,1);
 }
 
 .elevator i {

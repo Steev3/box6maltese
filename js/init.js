@@ -1,4 +1,11 @@
 // JavaScript Document
+
+//Loader
+	$(window).on("load", function() {
+		$(".se-pre-con").fadeOut("slow");
+	});
+//Loader
+
 //Services menu button extended
 $(document).ready(function() {
 	$("#button-services").click(function() {

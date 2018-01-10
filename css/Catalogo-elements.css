@@ -269,9 +269,9 @@
 
 .cassa-img-cont img,
 .conf-img-cont img {
-	width: 40%;
-	height: 30%;
-	margin: 0 30%;
+	width: 85px;
+	height: 70px;
+	margin: 0 auto;
 }
 
 

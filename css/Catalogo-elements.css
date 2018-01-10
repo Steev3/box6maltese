@@ -1,0 +1,291 @@
+.container {
+	width: 95%;
+	height: 100%;
+	margin: 72px 2.5% 2.5% 2.5%;
+	float: left;
+}
+
+.head-title {
+	width: 100%;
+	height: auto;
+	margin: 30px 0 0 0;
+	float: left;
+}
+
+.head-title #img-icon-cont {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+#img-icon-cont img {
+	width: 48px;
+	height: auto;
+	display: table-cell;
+	margin: 0 auto;
+}
+
+.head-title h1 {
+	width: 100%;
+	font-size: 2.3em;
+	text-align: center;
+	color: #BA082B;
+	float: left;
+}
+
+.img-description {
+	width: 60%;
+	height: 500px;
+	margin: 0;
+	float: left;
+}
+
+.text-description {
+	width: 40%;
+	height: 800px;
+	margin: 0;
+	float: left;
+}
+
+.img-description .img-cont {
+	width: 100%;
+	height: 500px;
+	margin: 0;
+	display: table-cell;
+	vertical-align: middle;
+	border-radius: 20px 0 0 20px;
+}
+
+.img-description .img-cont img {
+	width: 80%;
+	height: auto;
+	margin: 0 20% 0 0;
+}
+
+.text-description .text-cont {
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+.head-subtitle, 
+.midlast-subtitle,
+.last-subtitle {
+	width: 100%;
+	float: left;
+}
+
+.text-description .text-cont h3 {
+	width: 100%;
+	text-align: center;
+	color: #BA082B;
+	margin-top: 30px;
+}
+
+.year-production {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+.year-production .month {
+	width: calc(24% - 2px);
+	height: 50px;
+	border: 1px solid #BA082B;
+	background-color: white;
+	margin: 0 0.5% 1% 0.5%;
+	float: left;
+}
+
+#gen {
+	border-radius: 20px 0 0 0;
+}
+
+#apr {
+	border-radius: 0 20px 0 0;
+}
+
+#set {
+	border-radius: 0 0 0 20px;
+}
+
+#dic {
+	border-radius: 0 0 20px 0;
+}
+
+#giu,
+#lug,
+#ago,
+#set {
+	background-color: #BA082B;
+}
+
+#giu p,
+#lug p,
+#ago p,
+#set p {
+	color: white;
+}
+
+.content-month {
+	width: 100%;
+	height: 50px;
+	display: table;
+	float: left;
+}
+
+.content-month > p,
+.tipology > p {
+	width: 100%;
+	height: 50px;
+	color: #BA082B;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin: 0 auto;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.tipology {
+	width: 100%;
+	border-radius: 20px;
+	border: 1px solid #BA082B;
+	display: table;
+	float: left;
+}
+
+.progress-bar {
+	width: 100%;
+	height: 50px;
+	border: 1px solid #BA082B;
+	border-radius: 20px;
+	float: left;
+	overflow: hidden;
+}
+
+.slice-bar {
+	width: 10%;
+	height: 100%;
+	float: left;
+}
+
+#dieci,
+#venti,
+#trenta,
+#quaranta,
+#cinquanta,
+#sessanta,
+#settanta,
+#ottanta,
+#novanta,
+#cento {
+	width: 10%;
+	height: 50px;
+	float: left;
+}
+
+/*colore #BA082B*/
+.progress-bar p {
+	position: absolute;
+	width: 38%;
+	text-align: center;
+	color: #BA082B;
+	font-weight: 600;
+}
+
+#dieci {
+	width: 1%;
+	background-color: #BA082B;
+}
+
+#venti {
+	background-color: white;
+}
+
+#trenta {
+	background-color: white;
+}
+
+#quaranta {
+	background-color: white;
+}
+
+#cinquanta {
+	background-color: white;
+}
+
+#sessanta {
+	background-color: white;
+}
+
+#settanta {
+	background-color: white;
+}
+
+#ottanta {
+	background-color: white;
+}
+
+#novanta {
+	background-color: white;
+}
+
+#cento {
+	background-color: white;
+}
+
+.method {
+	width: 100%;
+	height: 200px;
+	border: 1px solid #BA082B;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+#cassa,
+#confezione {
+	height: 100px;
+	float: left;
+	display: table;
+}
+
+#cassa {
+	width: calc(50% - 1px);
+	border-right: 1px solid #BA082B;
+}
+
+#confezione {
+	width: 50%;
+	opacity: 0.5;
+}
+
+.cassa-img-cont,
+.conf-img-cont {
+	width: 100%;
+	height: 200px;
+	float: left;
+}
+
+.cassa-img-cont img,
+.conf-img-cont img {
+	width: 40%;
+	height: 30%;
+	margin: 0 30%;
+}
+
+
+.cassa-img-cont h2,
+.conf-img-cont h2 {
+	font-size: 1.3em;
+}
+
+.cassa-img-cont h2,
+.conf-img-cont h2,
+.cassa-img-cont p,
+.conf-img-cont p {
+	margin: 23px 0;
+	text-align: center;
+	color: #BA082B;
+	font-weight: 600;
+}

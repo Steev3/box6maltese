@@ -2,7 +2,7 @@
 .container {
 	width: 95%;
 	height: 100%;
-	margin: 72px 2.5% 2.5% 2.5%;
+	margin: 112px 2.5% 5% 2.5%;
 	float: left;
 }
 /*Container*/
@@ -285,6 +285,10 @@
 
 @media only screen and (max-width : 992px) {
 	
+	.container {
+		margin: 72px 2.5% 5% 2.5%;
+	}
+
 	.img-description,
 	.description  {
 		width: 100%;

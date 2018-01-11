@@ -1,10 +1,21 @@
+/*Container*/
 .container {
 	width: 95%;
 	height: 100%;
 	margin: 72px 2.5% 2.5% 2.5%;
 	float: left;
 }
+/*Container*/
 
+/*Sezione-superiore*/
+.head-title {
+	width: 100%;
+	height: auto;
+	margin: 30px 0;
+	float: left;
+}
+
+/*Navigation-link*/
 .navigation-link {
 	width: 100%;
 	margin-bottom: 30px;
@@ -23,14 +34,9 @@
 	display: inline;
 	color: #BA082B;
 }
+/*Navigation-link*/
 
-.head-title {
-	width: 100%;
-	height: auto;
-	margin: 30px 0;
-	float: left;
-}
-
+/*Title*/
 .head-title #img-icon-cont {
 	width: 100%;
 	height: auto;
@@ -51,26 +57,15 @@
 	color: #BA082B;
 	float: left;
 }
+/*Title*/
+/*Sezione-superiore*/
 
+/*Photo*/
 .img-description {
 	width: 60%;
 	height: 500px;
 	margin: 0;
 	float: left;
-}
-
-.description {
-	width: 40%;
-	height: 800px;
-	margin: 0;
-	float: left;
-}
-
-.text-description {
-	width: 90%;
-	height: 300px;
-	float: left;
-	margin: 0 5%;
 }
 
 .img-description .img-cont {
@@ -85,7 +80,25 @@
 .img-description .img-cont img {
 	width: 80%;
 	height: auto;
-	margin: 0 20% 0 0;
+	margin: 0 0 0 8%;
+}
+/*Photo*/
+
+/*Text-description*/
+.text-description {
+	width: 95%;
+    height: 300px;
+    float: left;
+    margin: 0 5% 0 0;
+}
+/*Text-description*/
+
+/*Specifications*/
+.description {
+	width: 40%;
+	height: 800px;
+	margin: 0;
+	float: left;
 }
 
 .description .text-cont {
@@ -145,20 +158,6 @@
 
 #dic {
 	border-radius: 0 0 20px 0;
-}
-
-#giu,
-#lug,
-#ago,
-#set {
-	background-color: #BA082B;
-}
-
-#giu p,
-#lug p,
-#ago p,
-#set p {
-	color: white;
 }
 
 .content-month {
@@ -228,47 +227,6 @@
 	font-weight: 600;
 }
 
-#dieci {
-	width: 1%;
-	background-color: #BA082B;
-}
-
-#venti {
-	background-color: white;
-}
-
-#trenta {
-	background-color: white;
-}
-
-#quaranta {
-	background-color: white;
-}
-
-#cinquanta {
-	background-color: white;
-}
-
-#sessanta {
-	background-color: white;
-}
-
-#settanta {
-	background-color: white;
-}
-
-#ottanta {
-	background-color: white;
-}
-
-#novanta {
-	background-color: white;
-}
-
-#cento {
-	background-color: white;
-}
-
 .method {
 	width: 100%;
 	height: 200px;
@@ -291,7 +249,6 @@
 
 #confezione {
 	width: 50%;
-	opacity: 0.3;
 }
 
 .cassa-img-cont,
@@ -324,6 +281,7 @@
 	color: #BA082B;
 	font-weight: 600;
 }
+/*Specifications*/
 
 @media only screen and (max-width : 992px) {
 	
@@ -344,6 +302,10 @@
 
 	.img-description .img-cont img {
 		margin: 20px 10%;
+	}
+
+	.progress-bar p {
+		width: 95%;
 	}
 
 } 

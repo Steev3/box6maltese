@@ -1,0 +1,67 @@
+/*Disponibile nei mesi : */
+#giu,
+#lug,
+#ago,
+#set {
+	background-color: #BA082B;
+}
+
+#giu p,
+#lug p,
+#ago p,
+#set p {
+	color: white;
+}
+/*Disponibile nei mesi : */
+/*Disponibilità percentuale settimanale: */
+/*colore #BA082B*/
+#dieci {
+	width: 1%;
+	background-color: #BA082B;
+}
+
+#venti {
+	background-color: white;
+}
+
+#trenta {
+	background-color: white;
+}
+
+#quaranta {
+	background-color: white;
+}
+
+#cinquanta {
+	background-color: white;
+}
+
+#sessanta {
+	background-color: white;
+}
+
+#settanta {
+	background-color: white;
+}
+
+#ottanta {
+	background-color: white;
+}
+
+#novanta {
+	background-color: white;
+}
+
+#cento {
+	background-color: white;
+}
+/*Disponibilità percentuale settimanale: */
+/*Misure disponibili*/
+#cassa {
+	opacity: 1;
+}
+
+#confezione {
+	opacity: 0.3;
+}
+/*Misure disponibili*/

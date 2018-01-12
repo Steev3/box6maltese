@@ -218,6 +218,17 @@ $(document).ready(function(){
 });
 //Smooth scroll anchor links
 
-//progress-bar
+//Images wide
+$(document).ready(function() {
+	$(".img-cont").click(function() {
+		$(".img-wide-cont").css("left","0");
+		$("body").css("overflow-y","hidden");
 
-//progress-bar
+	});
+
+	$("#close-wide").click(function() {
+		$(".img-wide-cont").css("left","-100%");
+		$("body").css("overflow-y","auto");
+	});
+});
+//Images wide

@@ -1,4 +1,5 @@
-/*Disponibile nei mesi : */
+﻿/*Disponibile nei mesi : */
+#mag,
 #giu,
 #lug,
 #ago,
@@ -6,6 +7,7 @@
 	background-color: #BA082B;
 }
 
+#mag p,
 #giu p,
 #lug p,
 #ago p,
@@ -62,16 +64,6 @@
 }
 
 #confezione {
-	opacity: 0.3;
+	opacity: 1;
 }
 /*Misure disponibili*/
-
-/*Page before-after mod*/
-#page-before {
-	opacity: 0.3;
-}
-
-#page-before:hover {
-	background-color: #BA082B;
-}
-/*Page before-after mod*/

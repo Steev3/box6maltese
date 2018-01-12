@@ -222,13 +222,10 @@ $(document).ready(function(){
 $(document).ready(function() {
 	$(".img-cont").click(function() {
 		$(".img-wide-cont").css("left","0");
-		$("body").css("overflow-y","hidden");
-
 	});
 
 	$("#close-wide").click(function() {
 		$(".img-wide-cont").css("left","-100%");
-		$("body").css("overflow-y","auto");
 	});
 });
 //Images wide

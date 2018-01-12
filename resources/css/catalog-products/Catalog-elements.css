@@ -409,6 +409,19 @@
 
 @media only screen and (max-width : 992px) {
 	
+	.img-wide {
+		width: 70%;
+		height: auto;
+		position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    -webkit-transform: translate(-50%,-50%);
+	    -moz-transform: translate(-50%,-50%);
+	    -o-transform: translate(-50%,-50%);
+	    -ms-transform: translate(-50%,-50%);
+	    transform: translate(-50%,-50%);
+	}
+
 	.container {
 		margin: 72px 2.5% 5% 2.5%;
 	}
@@ -429,7 +442,15 @@
 	}
 
 	.img-description .img-cont img {
-		margin: 20px 10%;
+		margin: 2.5%;
+	}
+
+	.img-description .img-cont img:hover {
+		-webkit-box-shadow: 0 0 0;
+		-moz-box-shadow: 0 0 0;
+		-o-box-shadow: 0 0 0;
+		-ms-box-shadow: 0 0 0;
+		box-shadow: 0 0 0;
 	}
 
 	.progress-bar p {

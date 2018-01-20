@@ -5,8 +5,8 @@ var
   interval, // scroll is being eased
   mult = 1, // how fast do we scroll
   dir = 0, // 1 = scroll down, -1 = scroll up
-  steps = 70, // how many steps in animation
-  length = 50; // how long to animate
+  steps = 50, // how many steps in animation
+  length = 30; // how long to animate
 function MouseWheelHandler(e) {
   e.preventDefault(); // prevent default browser scroll
   clearInterval(interval); // cancel previous animation

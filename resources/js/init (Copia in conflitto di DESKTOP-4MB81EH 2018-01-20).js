@@ -68,25 +68,6 @@ $(document).ready(function() {
 });
 //Mobile menu activator atalog
 
-//Mobile flyout activator
-$(document).ready(function() {
-	$(".services-on").click(function() {
-		$(".navbar-mobile").css("height","512px");
-		$("#ul-mobile").css("height","450px");
-		$(".flyout-content-mobile").css("height","100px");
-		$(".services-on").css("display","none");
-		$(".services-off").css("display","block");
-	});
-	$(".services-off").click(function() {
-		$(".navbar-mobile").css("height","412px");
-		$("#ul-mobile").css("height","350px");
-		$(".flyout-content-mobile").css("height","0");
-		$(".services-on").css("display","block");
-		$(".services-off").css("display","none");
-	});
-});
-//Mobile flyout activator
-
 //Mobile contacts activator
 $(document).ready(function() {
 	$("#btn-contact").click(function() {
@@ -131,7 +112,7 @@ $(document).ready(function() {
 		$(".services-off").css("display","none");
 	});
 	$("#btn-contact-close").click(function() {
-		$(".navbar-mobile").css("height","62px");
+		$(".navbar-mobile-catalog").css("height","62px");
 		$("#ul-contact").css("height","0");
 		$("#btn-contact-close").css("display","none");
 		$("#btn-contact").css("display","block");
@@ -141,15 +122,38 @@ $(document).ready(function() {
 });
 //Mobile contacts activator catalog
 
+//Mobile flyout activator
+$(document).ready(function() {
+	$(".services-on").click(function() {
+		$(".navbar-mobile").css("height","512px");
+		$("#ul-mobile").css("height","450px");
+		$(".flyout-content-mobile").css("height","100px");
+		$(".services-on").css("display","none");
+		$(".services-off").css("display","block");
+	});
+	$(".services-off").click(function() {
+		$(".navbar-mobile").css("height","412px");
+		$("#ul-mobile").css("height","350px");
+		$(".flyout-content-mobile").css("height","0");
+		$(".services-on").css("display","block");
+		$(".services-off").css("display","none");
+	});
+});
+//Mobile flyout activator
+
 //Brandlogo e obscurator close menu
 $(document).ready(function() {
 	$(".brandlogo-mobile").click(function() {
 		$(".navbar-mobile").css("height","62px");
+		$(".navbar-mobile-catalog").css("height","62px");
 		$("#ul-mobile").css("height","0");
+		$("#ul-mobile-catalog").css("height","0");
 		$("#ul-contact").css("height","0");
 		$("#btn-menu").css("display","block");
+		$("#btn-menu-catalog").css("display","block");
 		$("#btn-contact").css("display","block");
 		$("#btn-menu-close").css("display","none");
+		$("#btn-menu-close-catalog").css("display","none");
 		$("#btn-contact-close").css("display","none");
 		$(".obscurator").fadeOut();
 		$("body").css("overflow-y","auto");
@@ -159,11 +163,15 @@ $(document).ready(function() {
 	});
 	$(".obscurator").click(function() {
 		$(".navbar-mobile").css("height","62px");
+		$(".navbar-mobile-catalog").css("height","62px");
 		$("#ul-mobile").css("height","0");
+		$("#ul-mobile-catalog").css("height","0");
 		$("#ul-contact").css("height","0");
 		$("#btn-menu").css("display","block");
+		$("#btn-menu-catalog").css("display","block");
 		$("#btn-contact").css("display","block");
 		$("#btn-menu-close").css("display","none");
+		$("#btn-menu-close-catalog").css("display","none");
 		$("#btn-contact-close").css("display","none");
 		$(".obscurator").fadeOut();
 		$("body").css("overflow-y","auto");
@@ -271,3 +279,15 @@ $(document).ready(function(){
   });
 });
 //Smooth scroll anchor links
+
+//Images wide
+$(document).ready(function() {
+	$(".img-cont").click(function() {
+		$(".img-wide-cont").css("left","0");
+	});
+
+	$("#close-wide").click(function() {
+		$(".img-wide-cont").css("left","calc(-100% - 15px)");
+	});
+});
+//Images wide

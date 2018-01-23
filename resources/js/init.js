@@ -300,11 +300,15 @@ $(document).ready(function() {
 		$(".right-column-container-mob").css("right","0");
 		$(".right-column-menu-open-mob").css("display","none");
 		$(".right-column-menu-close-mob").css("display","block");
+		$(".obscurator").css("z-index","99999");
+		$(".obscurator").fadeIn();
 	});
 	$(".right-column-menu-close-mob").click(function() {
 		$(".right-column-container-mob").css("right","-85%");
 		$(".right-column-menu-open-mob").css("display","block");
 		$(".right-column-menu-close-mob").css("display","none");
+		$(".obscurator").css("z-index","1");
+		$(".obscurator").fadeOut();
 	});
 });
 //List column catalog menu

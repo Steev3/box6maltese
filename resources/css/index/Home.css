@@ -525,6 +525,47 @@ table, th, td {
 	margin: 0 20px 30px 20px;
 }
 
+.elevator {
+	width: 40px;
+	height: 60px;
+	position: fixed;
+	right: 30px;
+	bottom: -60px;
+	border-radius: 10px 10px 0 0;
+	background-color: #181F1C;
+	z-index: 99999;
+	-webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	-ms-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+	-webkit-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+	-o-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+	-ms-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+	box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+
+.elevator:hover {
+	background-color: #329932;
+	-webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	-ms-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+}
+
+.elevator i {
+	width: 40px;
+	height: 40px;
+	font-size: 24px;
+	font-weight: 400;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	color: white;
+}
+
 @media only screen and (max-width : 992px) {
 
 	.parallax-index {

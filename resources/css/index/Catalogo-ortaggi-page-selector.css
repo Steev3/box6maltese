@@ -1,0 +1,56 @@
+/*Page before-after*/
+.page-bef-aft {
+	float: left;
+	width: 40%;
+	height: 50px;
+	margin: 30px 30%;
+	border: 1px solid #181f1c;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+#page-before,
+#current-page,
+#page-after {
+	float: left;
+}
+
+#page-before,
+#page-after {
+	width: 25%;
+	height: 50px;
+	background-color: #B92F2F;
+}
+
+#page-before:hover,
+#page-after:hover {
+	background-color: #942525;
+}
+
+#current-page {
+	width: 50%;
+	height: 50px;
+}
+
+#page-before i,
+#current-page i,
+#page-after i {
+	width: 1%;
+	height: 50px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color: white;
+}
+
+#current-page p {
+	width: 1%;
+	height: 50px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color: #BA082B;
+	font-weight: 600;
+	font-size: 1.4em;
+}
+/*Page before-after*/

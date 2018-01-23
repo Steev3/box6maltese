@@ -235,10 +235,10 @@ $(document).ready(function() {
 	$(function(){
 	    var hasBeenTrigged = false;
 	    $(window).scroll(function() {
-	        if ($(this).scrollTop() >= 400 && !hasBeenTrigged) { // if scroll is greater/equal then 100 and hasBeenTrigged is set to false.
-	            $(".elevator").css("right","30px");
+	        if ($(this).scrollTop() >= 700 && !hasBeenTrigged) { // if scroll is greater/equal then 100 and hasBeenTrigged is set to false.
+	            $(".elevator").css("bottom","0");
 	        } else {
-	        	$(".elevator").css("right","-80px");
+	        	$(".elevator").css("bottom","-60px");
 	        }
 	    });
 	});
@@ -271,3 +271,40 @@ $(document).ready(function(){
   });
 });
 //Smooth scroll anchor links
+
+//List column catalog menu
+$(document).ready(function() {
+	$(".right-column-menu-open").click(function() {
+		$(".right-column-container").css("right","0");
+		$(".right-column-menu-open").css("display","none");
+		$(".right-column-menu-close").css("display","block");
+	});
+	$(".right-column-menu-close").click(function() {
+		$(".right-column-container").css("right","-25.5%");
+		$(".right-column-menu-open").css("display","block");
+		$(".right-column-menu-close").css("display","none");
+	});
+
+	$(".right-column-menu-open-tab").click(function() {
+		$(".right-column-container-tab").css("right","0");
+		$(".right-column-menu-open-tab").css("display","none");
+		$(".right-column-menu-close-tab").css("display","block");
+	});
+	$(".right-column-menu-close-tab").click(function() {
+		$(".right-column-container-tab").css("right","-34%");
+		$(".right-column-menu-open-tab").css("display","block");
+		$(".right-column-menu-close-tab").css("display","none");
+	});
+
+	$(".right-column-menu-open-mob").click(function() {
+		$(".right-column-container-mob").css("right","0");
+		$(".right-column-menu-open-mob").css("display","none");
+		$(".right-column-menu-close-mob").css("display","block");
+	});
+	$(".right-column-menu-close-mob").click(function() {
+		$(".right-column-container-mob").css("right","-85%");
+		$(".right-column-menu-open-mob").css("display","block");
+		$(".right-column-menu-close-mob").css("display","none");
+	});
+});
+//List column catalog menu

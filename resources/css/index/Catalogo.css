@@ -1,3 +1,85 @@
+.right-column-container {
+	width: 30%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: -25.5%;
+    z-index: 9999;
+    -webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	-ms-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+}
+
+.right-column-container-tab,
+.right-column-container-mob {
+	display: none;
+}
+
+.right-column-list {
+	position: relative;
+	width: 85%;
+	height: 100%;
+	float: left;
+	background-color: rgba(24,31,28,1);
+	-webkit-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+	-o-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+	-ms-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+	box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+
+.right-column-list h3 {
+	width: 100%;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	padding: 25px 0;
+	margin: 0;
+	background-color: #181F1C;
+}
+
+.right-column-menu-container {
+	width: 15%;
+	height: 100%;
+	float: left;
+	margin-top: 132px;
+}
+
+.right-column-menu-open,
+.right-column-menu-close {
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 50px;
+	background-color: #181F1C;
+	border-radius: 10px 0 0 10px;
+	-webkit-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+	-o-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+	-ms-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+	box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+
+.right-column-menu-close {
+	display: none;
+}
+
+.right-column-menu-open:hover,
+.right-column-menu-close:hover {
+	cursor: pointer;
+	background-color: #329932;
+}
+
+.right-column-menu-open img,
+.right-column-menu-close img {
+	height: 30px;
+	display: table;
+	margin: 10px auto;
+}
+
 .container {
 	position: relative;
 	float: left;
@@ -8,38 +90,38 @@
 }
 
 .elevator {
-	width: 48px;
-	height: 48px;
+	width: 40px;
+	height: 60px;
 	position: fixed;
-	right: -80px;
-	bottom: 30px;
-	border-radius: 10px;
-	border: 1px solid #329932;
-	background-color: rgba(24,31,28,0.5);
-	-webkit-transition: 0.5s ease-in-out;
-	-moz-transition: 0.5s ease-in-out;
-	-o-transition: 0.5s ease-in-out;
-	-ms-transition: 0.5s ease-in-out;
-	transition: 0.5s ease-in-out;
-	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
-	-moz-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
-	-o-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
-	-ms-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
-	box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+	right: 30px;
+	bottom: -60px;
+	z-index: 999;
+	border-radius: 10px 10px 0 0;
+	background-color: #181F1C;
+	-webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	-ms-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+	-webkit-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+	-o-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+	-ms-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+	box-shadow: 0 0 6px rgba(0,0,0,0.5);
 }
 
-.elevator:active {
-	background-color: rgba(24,31,28,1);
-	-webkit-transition: 0s ease-in-out;
-	-moz-transition: 0s ease-in-out;
-	-o-transition: 0s ease-in-out;
-	-ms-transition: 0s ease-in-out;
-	transition: 0s ease-in-out;
+.elevator:hover {
+	background-color: #329932;
+	-webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	-ms-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
 }
 
 .elevator i {
-	width: 48px;
-	height: 48px;
+	width: 40px;
+	height: 40px;
 	font-size: 24px;
 	font-weight: 400;
 	text-align: center;
@@ -103,8 +185,22 @@
 	box-shadow: 0 3px 6px rgba(0,0,0,0.5);
 }
 
+.catalog-categories {
+	width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 20px 0;
+   -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+	-o-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+	-ms-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+	box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+}
+
 .fruit {
-	color: #BA082B;
+	color: #C02040;
 }
 
 .verdure {
@@ -112,7 +208,7 @@
 }
 
 .ortages {
-	color: #731D1D;
+	color: #B92F2F;
 }
 
 .fruit h3,
@@ -168,12 +264,108 @@
 	box-shadow: 0 0 0 rgba(0,0,0,0.5);
 }
 
+.catalogue-categories {
+	width: calc(32.33% - 2px);
+	height: 240px;
+	border-radius: 20px;
+	overflow: hidden;
+	float: left;
+	margin: 1.5% 0.5%;
+	-webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+	-ms-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+	-o-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+	-ms-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+	box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+}
+
+.catalogue-categories:hover {
+	-webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	-ms-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+	-webkit-box-shadow: 0 9px 18px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 9px 18px rgba(0,0,0,0.5);
+	-o-box-shadow: 0 9px 18px rgba(0,0,0,0.5);
+	-ms-box-shadow: 0 9px 18px rgba(0,0,0,0.5);
+	box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+}
+
+.catalogue-categories:active {
+	-webkit-transition: 0s ease-in-out;
+	-moz-transition: 0s ease-in-out;
+	-o-transition: 0s ease-in-out;
+	-ms-transition: 0s ease-in-out;
+	transition: 0s ease-in-out;
+	-webkit-box-shadow: 0 0 0 rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 0 0 rgba(0,0,0,0.5);
+	-o-box-shadow: 0 0 0 rgba(0,0,0,0.5);
+	-ms-box-shadow: 0 0 0 rgba(0,0,0,0.5);
+	box-shadow: 0 0 0 rgba(0,0,0,0.5);
+}
+
+.list-column-categories {
+	width: calc(95% - 2px);
+	height: 240px;
+	overflow: hidden;
+	float: left;
+	margin: 1.5% 2.5%;
+	background-color: white;
+	-webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+	-ms-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+	-o-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+	-ms-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+	box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+}
+
+.list-column-categories:hover {
+	-webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	-ms-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+	-webkit-box-shadow: 0 9px 18px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 9px 18px rgba(0,0,0,0.5);
+	-o-box-shadow: 0 9px 18px rgba(0,0,0,0.5);
+	-ms-box-shadow: 0 9px 18px rgba(0,0,0,0.5);
+	box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+}
+
+.list-column-categories:active {
+	-webkit-transition: 0s ease-in-out;
+	-moz-transition: 0s ease-in-out;
+	-o-transition: 0s ease-in-out;
+	-ms-transition: 0s ease-in-out;
+	transition: 0s ease-in-out;
+	-webkit-box-shadow: 0 0 0 rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 0 0 rgba(0,0,0,0.5);
+	-o-box-shadow: 0 0 0 rgba(0,0,0,0.5);
+	-ms-box-shadow: 0 0 0 rgba(0,0,0,0.5);
+	box-shadow: 0 0 0 rgba(0,0,0,0.5);
+}
+
+#frutta-list-column,
+#verdura-list-column,
+#ortaggi-list-column {
+	margin-top: 0;
+}
+
 .frt {
-	border: 1px solid #BA082B;
+	border: 1px solid #C02040;
 }
 
 .frt-text {
-	background-color: #BA082B;
+	background-color: #C02040;
 }
 
 .vrd {
@@ -185,11 +377,11 @@
 }
 
 .ort {
-	border: 1px solid #A52A2A;
+	border: 1px solid #B92F2F;
 }
 
 .ort-text {
-	background-color: #A52A2A;
+	background-color: #B92F2F;
 }
 
 .img-cont {
@@ -207,75 +399,21 @@
 }
 
 .img-cont img {
-	width: 80%;
+	width: 170px;
 	margin: 0 auto;
 	display: table-cell;
 }
 
-#melagrano img,
-#cavolfiore-b img,
-#canasta img {
-	width: 45%;
+.img-cont .img-categories {
+	width: 250px;
+	margin: 0 auto;
+	display: table-cell;
 }
 
-#borlotto img {
-	width: 50%;
-}
-
-#pesca img,
-#susina-n img,
-#italia img,
-#matilde img,
-#cavolfiore-v img,
-#cicoria img,
-#cipolla-bianca img,
-#casolino img,
-#pepe-friggitel img {
-	width: 55%;
-}
-
-#minianguria img,
-#ficodindia img,
-#limone-g img,
-#limone-v img,
-#mandarance img,
-#nova img,
-#tarocco img,
-#basilico img,
-#broccolo img,
-#cime img,
-#lattuga img,
-#indivia img,
-#prezzemolo img,
-#rucola img,
-#patata img,
-#zucca-spinosa img {
-	width: 60%;
-}
-
-#mandarino img,
-#miyagawa img,
-#melacotogna img,
-#vittoria img,
-#red-globe img,
-#spinacia img,
-#aglio img,
-#carciofo img,
-#cipolla-dorata img,
-#piattella img,
-#finocchio img,
-#melanzana-viola img,
-#pomo-tondo img,
-#verza img,
-#zucca-gialla img,
-#zucchina-verde img {
-	width: 65%;
-}
-
-#cetrangolo img,
-#pepe-cornetto-rosso img,
-#zucchina-lunga img {
-	width: 70%;
+.img-cont .img-list-column {
+	width: 190px;
+	margin: 0 auto;
+	display: table-cell;
 }
 
 .img-text {
@@ -295,6 +433,94 @@
 }
 
 @media only screen and (max-width : 992px) {
+
+	.right-column-container-tab {
+		display: block;
+		width: 40%;
+	    height: 100%;
+	    position: fixed;
+	    top: 0;
+	    right: -34%;
+	    z-index: 9999;
+	    -webkit-transition: 0.2s ease-in-out;
+		-moz-transition: 0.2s ease-in-out;
+		-o-transition: 0.2s ease-in-out;
+		-ms-transition: 0.2s ease-in-out;
+		transition: 0.2s ease-in-out;
+	}
+
+	.right-column-container,
+	.right-column-container-mob {
+		display: none;
+	}
+
+	.right-column-list-tab {
+		position: relative;
+		width: 85%;
+		height: 100%;
+		float: left;
+		background-color: rgba(24,31,28,1);
+		-webkit-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+		-moz-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+		-o-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+		-ms-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+		box-shadow: 0 0 6px rgba(0,0,0,0.5);
+	}
+
+	.right-column-list-tab h3 {
+		width: 100%;
+		text-align: center;
+		color: white;
+		text-transform: uppercase;
+		font-size: 1.2em;
+		padding: 20px 0;
+		margin: 0;
+		background-color: #181F1C;
+	}
+
+	.right-column-menu-container-tab {
+		width: 15%;
+		height: 100%;
+		float: left;
+		margin-top: 92px;
+	}
+
+	.right-column-menu-open-tab,
+	.right-column-menu-close-tab {
+		display: block;
+		position: relative;
+		float: left;
+		width: 100%;
+		height: 50px;
+		background-color: #181F1C;
+		border-radius: 10px 0 0 10px;
+		-webkit-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+		-moz-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+		-o-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+		-ms-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+		box-shadow: 0 0 6px rgba(0,0,0,0.5);
+	}
+
+	.right-column-menu-close-tab {
+		display: none;
+	}
+
+	.right-column-menu-open-tab:hover,
+	.right-column-menu-close-tab:hover {
+		cursor: pointer;
+		background-color: #329932;
+	}
+
+	.right-column-menu-open-tab img,
+	.right-column-menu-close-tab img {
+		height: 30px;
+		display: table;
+		margin: 10px auto;
+	}
+
+	.container {
+		margin-top: calc(2.5% + 72px);
+	}
 
 	.catalogue-elem {
 		width: calc(48% - 2px);
@@ -374,6 +600,90 @@
 }
 
 @media only screen and (max-width : 600px) {
+
+	.right-column-container-mob {
+		display: block;
+		width: 100%;
+	    height: 100%;
+	    position: fixed;
+	    top: 0;
+	    right: -85%;
+	    z-index: 9999;
+	    -webkit-transition: 0.2s ease-in-out;
+		-moz-transition: 0.2s ease-in-out;
+		-o-transition: 0.2s ease-in-out;
+		-ms-transition: 0.2s ease-in-out;
+		transition: 0.2s ease-in-out;
+	}
+
+	.right-column-container,
+	.right-column-container-tab {
+		display: none;
+	}
+
+	.right-column-list-mob {
+		position: relative;
+		width: 85%;
+		height: 100%;
+		float: left;
+		background-color: rgba(24,31,28,1);
+		-webkit-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+		-moz-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+		-o-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+		-ms-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+		box-shadow: 0 0 6px rgba(0,0,0,0.5);
+	}
+
+	.right-column-list-mob h3 {
+		width: 100%;
+		text-align: center;
+		color: white;
+		text-transform: uppercase;
+		font-size: 1.2em;
+		padding: 20px 0;
+		margin: 0;
+		background-color: #181F1C;
+	}
+
+	.right-column-menu-container-mob {
+		width: 15%;
+		height: 100%;
+		float: left;
+		margin-top: 92px;
+	}
+
+	.right-column-menu-open-mob,
+	.right-column-menu-close-mob {
+		display: block;
+		position: relative;
+		float: left;
+		width: 100%;
+		height: 50px;
+		background-color: #181F1C;
+		border-radius: 10px 0 0 10px;
+		-webkit-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+		-moz-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+		-o-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+		-ms-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+		box-shadow: 0 0 6px rgba(0,0,0,0.5);
+	}
+
+	.right-column-menu-close-mob {
+		display: none;
+	}
+
+	.right-column-menu-open-mob:hover,
+	.right-column-menu-close-mob:hover {
+		cursor: pointer;
+		background-color: #329932;
+	}
+
+	.right-column-menu-open-mob img,
+	.right-column-menu-close-mob img {
+		height: 30px;
+		display: table;
+		margin: 10px auto;
+	}
 
 	.img-cont img {
 		width: 50%;

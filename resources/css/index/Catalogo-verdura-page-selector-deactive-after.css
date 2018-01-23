@@ -1,0 +1,7 @@
+#page-after {
+	opacity: 0.5;
+}
+
+#page-after:hover {
+	background-color: #329932;
+}

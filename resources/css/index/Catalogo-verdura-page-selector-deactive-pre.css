@@ -1,0 +1,7 @@
+#page-before {
+	opacity: 0.5;
+}
+
+#page-before:hover {
+	background-color: #329932;
+}

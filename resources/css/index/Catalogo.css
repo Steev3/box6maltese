@@ -642,6 +642,29 @@
 		box-shadow: 0 0 6px rgba(0,0,0,0.5);
 	}
 
+	.right-column-text-img-vrd-mob,
+	.right-column-text-img-ort-mob {
+	    display: block;
+	    position: absolute;
+	    width: 94.3%;
+	    font-size: 24px;
+	    padding: 20px 0;
+	    margin: 40px 0;
+	    text-align: center;
+	    color: white;
+	    text-shadow: 0 0 3px black;
+	    border-top: 1px solid white;
+	    border-bottom: 1px solid white;
+	}
+
+	.right-column-text-img-vrd-mob {
+		background-color: rgba(50,153,50,0.8);
+	}
+
+	.right-column-text-img-ort-mob {
+		background-color: rgba(129,32,32,0.8);
+	}
+
 	.right-column-list-mob h3 {
 		width: 100%;
 		text-align: center;
@@ -753,6 +776,10 @@
 
 	.img-text {
 		display: none;
+	}
+
+	.list-column-categories {
+		height: 150px;
 	}
 
 	.catalogue-categories {

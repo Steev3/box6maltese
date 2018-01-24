@@ -131,7 +131,7 @@ $(document).ready(function() {
 		$(".services-off").css("display","none");
 	});
 	$("#btn-contact-close").click(function() {
-		$(".navbar-mobile").css("height","62px");
+		$(".navbar-mobile-catalog").css("height","62px");
 		$("#ul-contact").css("height","0");
 		$("#btn-contact-close").css("display","none");
 		$("#btn-contact").css("display","block");

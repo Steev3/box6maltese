@@ -685,8 +685,59 @@
 		margin: 10px auto;
 	}
 
-	.img-cont img {
-		width: 50%;
+	.right-column-text-frt-mob,
+	.right-column-text-ort-mob {
+		display: block;
+		width: 100%;
+		height: 20%;
+		margin: 0 auto;
+		float: left;
+		border-top: 1px solid rgba(0,0,0,0.2);
+	}
+
+	.right-column-text-frt-mob {
+		background-color: #329932;
+	}
+
+	.right-column-text-ort-mob {
+		background-color: #B92F2F;
+	}
+
+	.right-column-text-frt-mob h2,
+	.right-column-text-ort-mob h2 {
+		width: 100%;
+		text-align: center;
+		color: white;
+		padding-top: 10px;
+		margin: 0;
+	}
+
+	.img-cont {
+		display: block;
+		height: 100%;
+	}
+
+	.text-img-mob {
+		position: absolute;
+	    width: 95.5%;
+	    text-align: center;
+	    color: white;
+	    text-shadow: 0 0 3px black;
+	}
+
+	.img-cont .img {
+		height: 95%;
+		margin: 2.5% 0;
+	}
+
+	.img-cont .img img {
+		width: 100%;
+		height: auto;
+		margin: 2.5% 0;
+	}
+
+	.img-text {
+		display: none;
 	}
 
 	.catalogue-categories {
@@ -697,6 +748,7 @@
 	.catalogue-elem {
 		width: calc(96% - 2px);
 		margin: 1.5% 2%;
+		height: 200px;
 	}
 
 	.img-cont .img-categories {
@@ -704,68 +756,12 @@
 		margin: 5px auto;
 		display: table;
 	}
+}
 
-	#melagrano img,
-	#cavolfiore-b img,
-	#canasta img {
-		width: 30%;
+@media screen and ( max-width:400px ) {
+	.catalogue-elem {
+		width: calc(96% - 2px);
+		margin: 1.5% 2%;
+		height: 150px;
 	}
-
-	#pesca img,
-	#susina-n img,
-	#italia img,
-	#matilde img,
-	#cavolfiore-v img,
-	#cicoria img,
-	#cipolla-bianca img,
-	#borlotto img,
-	#casolino img,
-	#pepe-friggitel img {
-		width: 35%;
-	}
-
-	#minianguria img,
-	#ficodindia img,
-	#limone-g img,
-	#limone-v img,
-	#mandarance img,
-	#nova img,
-	#tarocco img,
-	#basilico img,
-	#broccolo img,
-	#cime img,
-	#lattuga img,
-	#indivia img,
-	#prezzemolo img,
-	#rucola img,
-	#patata img,
-	#zucca-spinosa img {
-		width: 40%;
-	}
-
-	#mandarino img,
-	#miyagawa img,
-	#melacotogna img,
-	#vittoria img,
-	#red-globe img,
-	#spinacia img,
-	#aglio img,
-	#carciofo img,
-	#cipolla-dorata img,
-	#piattella img,
-	#finocchio img,
-	#melanzana-viola img,
-	#pomo-tondo img,
-	#verza img,
-	#zucca-gialla img,
-	#zucchina-verde img,
-	#zucchina-lunga img {
-		width: 45%;
-	}
-
-	#cetrangolo img,
-	#pepe-cornetto-rosso img {
-		width: 60%;
-	}
-
 }

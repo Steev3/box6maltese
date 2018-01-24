@@ -4,7 +4,7 @@
     position: fixed;
     top: 0;
     right: -25.5%;
-    z-index: 9999;
+    z-index: 9;
     -webkit-transition: 0.2s ease-in-out;
 	-moz-transition: 0.2s ease-in-out;
 	-o-transition: 0.2s ease-in-out;
@@ -441,7 +441,7 @@
 	    position: fixed;
 	    top: 0;
 	    right: -34%;
-	    z-index: 9999;
+	    z-index: 9;
 	    -webkit-transition: 0.2s ease-in-out;
 		-moz-transition: 0.2s ease-in-out;
 		-o-transition: 0.2s ease-in-out;
@@ -608,7 +608,7 @@
 	    position: fixed;
 	    top: 0;
 	    right: -85%;
-	    z-index: 99999;
+	    z-index: 9;
 	    -webkit-transition: 0.2s ease-in-out;
 		-moz-transition: 0.2s ease-in-out;
 		-o-transition: 0.2s ease-in-out;
@@ -649,7 +649,7 @@
 		width: 15%;
 		height: 100%;
 		float: left;
-		margin-top: 92px;
+		margin-top: 450px;
 	}
 
 	.right-column-menu-open-mob,
@@ -689,9 +689,20 @@
 		width: 50%;
 	}
 
+	.catalogue-categories {
+		width: calc(96% - 2px);
+		margin: 1.5% 2%;
+	}
+
 	.catalogue-elem {
 		width: calc(96% - 2px);
 		margin: 1.5% 2%;
+	}
+
+	.img-cont .img-categories {
+		width: 220px;
+		margin: 5px auto;
+		display: table;
 	}
 
 	#melagrano img,

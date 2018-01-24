@@ -653,16 +653,20 @@
 	    text-align: center;
 	    color: white;
 	    text-shadow: 0 0 3px black;
-	    border-top: 1px solid white;
-	    border-bottom: 1px solid white;
+	    border-top: 1px solid #181F1C;
+	    border-bottom: 1px solid #181F1C;
 	}
 
 	.right-column-text-img-vrd-mob {
 		background-color: rgba(50,153,50,0.8);
+		border-top: 1px solid #329932;
+	    border-bottom: 1px solid #329932;
 	}
 
 	.right-column-text-img-ort-mob {
 		background-color: rgba(129,32,32,0.8);
+		border-top: 1px solid #812020;
+	    border-bottom: 1px solid #812020;
 	}
 
 	.right-column-list-mob h3 {
@@ -759,8 +763,8 @@
 	    text-align: center;
 	    color: white;
 	    text-shadow: 0 0 3px black;
-	    border-top: 1px solid white;
-    	border-bottom: 1px solid white;
+	    border-top: 1px solid #C02040;
+    	border-bottom: 1px solid #C02040;
 	}
 
 	.img-cont .img {

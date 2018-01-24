@@ -53,4 +53,11 @@
 	font-weight: 600;
 	font-size: 1.4em;
 }
+
+@media screen and ( max-width:600px ) {
+	.page-bef-aft {
+	    width: 95%;
+	    margin: 30px 2.5%;
+	}
+}
 /*Page before-after*/

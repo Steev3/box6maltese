@@ -290,7 +290,7 @@ $(document).ready(function() {
 	});
 	$(".right-column-menu-close").click(function() {
 		$(".right-column-container").css("z-index","9");
-		$(".right-column-container").css("right","-25.5%");
+		$(".right-column-container").css("right","-38.2%");
 		$(".right-column-menu-open").css("display","block");
 		$(".right-column-menu-close").css("display","none");
 	});

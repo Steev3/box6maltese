@@ -1,4 +1,16 @@
-.text-img-mob-vrd {
+.text-img-ort {
+	background-color: rgba(148,37,37,0.8);
+	border-top: 1px solid #942525;
+	border-bottom: 1px solid #942525;
+}
+
+.right-column-text-img-frt {
+	background-color: rgba(192,32,64,0.8);
+	border-top: 1px solid #C02040;
+	border-bottom: 1px solid #C02040;
+}
+
+.right-column-text-img-vrd {
 	background-color: rgba(50,153,50,0.8);
 	border-top: 1px solid #329932;
 	border-bottom: 1px solid #329932;

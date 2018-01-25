@@ -1,9 +1,9 @@
 .right-column-container {
-	width: 30%;
+	width: 45%;
     height: 100%;
     position: fixed;
     top: 0;
-    right: -25.5%;
+    right: -38.2%;
     z-index: 9;
     -webkit-transition: 0.2s ease-in-out;
 	-moz-transition: 0.2s ease-in-out;
@@ -359,7 +359,7 @@
 #ortaggi-list-column {
 	margin-top: 0;
 }
-
+/*
 .frt {
 	border: 1px solid #C02040;
 }
@@ -383,7 +383,7 @@
 .ort-text {
 	background-color: #942525;
 }
-
+*/
 .img-cont {
 	width: 100%;
 	height: 80%;
@@ -430,18 +430,38 @@
 	margin: 0;
 }
 
-.text-img-mob-frt,
-.text-img-mob-vrd,
-.text-img-mob-ort {
+.text-img-frt,
+.text-img-vrd,
+.text-img-ort {
 	display: block;
 	position: absolute;
-    width: 95.6%;
+    width: 23.9%;
     font-size: 30px;
     padding: 20px 0;
-    margin: 61.5px 0;
+    margin: 80.5px 0;
     text-align: center;
     color: white;
     text-shadow: 0 0 3px black;
+}
+
+.right-column-text-img-vrd,
+.right-column-text-img-ort {
+    display: block;
+    position: absolute;
+    width: 94.4%;
+    font-size: 24px;
+    padding: 20px 0;
+    margin: 84.5px 0;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 3px black;
+    border-top: 1px solid #181F1C;
+    border-bottom: 1px solid #181F1C;
+}
+
+#verdura-list-column img,
+#ortaggi-list-column img {
+	height: 300px;
 }
 
 .img-cont .img img {
@@ -456,8 +476,6 @@
 #borlotto img,
 #pesca img,
 #susina-n img,
-#italia img,
-#matilde img,
 #cavolfiore-v img,
 #cicoria img,
 #cipolla-bianca img,
@@ -482,8 +500,6 @@
 #mandarino img,
 #miyagawa img,
 #melacotogna img,
-#vittoria img,
-#red-globe img,
 #spinacia img,
 #aglio img,
 #carciofo img,
@@ -501,6 +517,14 @@
 	width: auto;
 	height: 400px;
 	margin-top: 5px;
+}
+
+#italia img,
+#matilde img,
+#vittoria img,
+#leopoldo img,
+#red-globe img {
+	height: 300px;
 }
 
 @media only screen and (max-width : 992px) {
@@ -598,9 +622,9 @@
 		margin: 1.5% 1%;
 	}
 
-	.text-img-mob-frt,
-	.text-img-mob-vrd,
-	.text-img-mob-ort {
+	.text-img-frt,
+	.text-img-vrd,
+	.text-img-ort {
 		display: block;
 	    position: absolute;
 	    width: 47.8%;
@@ -613,33 +637,6 @@
 	    text-shadow: 0 0 3px black;
 	    border-top: 1px solid #C02040;
 	    border-bottom: 1px solid #C02040;
-	}
-
-	.right-column-text-img-vrd-mob,
-	.right-column-text-img-ort-mob {
-	    display: block;
-	    position: absolute;
-	    width: 94.4%;
-	    font-size: 24px;
-	    padding: 20px 0;
-	    margin: 84.5px 0;
-	    text-align: center;
-	    color: white;
-	    text-shadow: 0 0 3px black;
-	    border-top: 1px solid #181F1C;
-	    border-bottom: 1px solid #181F1C;
-	}
-
-	.right-column-text-img-vrd-mob {
-		background-color: rgba(50,153,50,0.8);
-		border-top: 1px solid #329932;
-	    border-bottom: 1px solid #329932;
-	}
-
-	.right-column-text-img-ort-mob {
-		background-color: rgba(129,32,32,0.8);
-		border-top: 1px solid #812020;
-	    border-bottom: 1px solid #812020;
 	}
 
 }
@@ -764,9 +761,9 @@
 		height: 100%;
 	}
 
-	.text-img-mob-frt,
-	.text-img-mob-vrd,
-	.text-img-mob-ort {
+	.text-img-frt,
+	.text-img-vrd,
+	.text-img-ort {
 		display: block;
 		position: absolute;
 	    width: 95.6%;

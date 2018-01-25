@@ -531,24 +531,37 @@
 		margin: 1.5% 1%;
 	}
 
-	.text-img-mob { 
-		display: none;
+	.text-img-mob {
+		display: block;
+	    position: absolute;
+	    width: 47.8%;
+	    font-size: 25px;
+	    background-color: rgba(192,32,64,0.8);
+	    padding: 20px 0;
+	    margin: 84px 0;
+	    text-align: center;
+	    color: white;
+	    text-shadow: 0 0 3px black;
+	    border-top: 1px solid #C02040;
+	    border-bottom: 1px solid #C02040;
 	}
 
 	.img-cont img {
-		width: 55%;
+	    width: auto;
+	    height: 230px;
+	    margin-top: 5px;
+	}
+
+	.img-cont .img img {
+		width: auto;
+		height: 300px;
+		margin-top: 5px;
 	}
 
 	#melagrano img,
 	#cavolfiore-b img,
-	#canasta img {
-		width: 35%;
-	}
-
-	#borlotto img {
-		width: 40%;
-	}
-
+	#canasta img,
+	#borlotto img,
 	#pesca img,
 	#susina-n img,
 	#italia img,
@@ -557,10 +570,7 @@
 	#cicoria img,
 	#cipolla-bianca img,
 	#casolino img,
-	#pepe-friggitel img {
-		width: 45%;
-	}
-
+	#pepe-friggitel img,
 	#minianguria img,
 	#ficodindia img,
 	#limone-g img,
@@ -576,10 +586,7 @@
 	#prezzemolo img,
 	#rucola img,
 	#patata img,
-	#zucca-spinosa img {
-		width: 50%;
-	}
-
+	#zucca-spinosa img,
 	#mandarino img,
 	#miyagawa img,
 	#melacotogna img,
@@ -596,13 +603,12 @@
 	#verza img,
 	#zucca-gialla img,
 	#zucchina-verde img,
-	#zucchina-lunga img {
-		width: 55%;
-	}
-
+	#zucchina-lunga img,
 	#cetrangolo img,
 	#pepe-cornetto-rosso img {
-		width: 70%;
+		width: auto;
+		height: 300px;
+		margin-top: 5px;
 	}
 
 }

@@ -377,11 +377,11 @@
 }
 
 .ort {
-	border: 1px solid #B92F2F;
+	border: 1px solid #942525;
 }
 
 .ort-text {
-	background-color: #B92F2F;
+	background-color: #942525;
 }
 
 .img-cont {
@@ -399,8 +399,6 @@
 }
 
 .img-cont img {
-	width: 170px;
-	margin: 0 auto;
 	display: table-cell;
 }
 
@@ -432,19 +430,88 @@
 	margin: 0;
 }
 
-.text-img-mob { 
-	display: none;
+.text-img-mob-frt,
+.text-img-mob-vrd,
+.text-img-mob-ort {
+	display: block;
+	position: absolute;
+    width: 95.6%;
+    font-size: 30px;
+    padding: 20px 0;
+    margin: 61.5px 0;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 3px black;
+}
+
+.img-cont .img img {
+	width: auto;
+	height: 400px;
+	margin-top: 5px;
+}
+
+#melagrano img,
+#cavolfiore-b img,
+#canasta img,
+#borlotto img,
+#pesca img,
+#susina-n img,
+#italia img,
+#matilde img,
+#cavolfiore-v img,
+#cicoria img,
+#cipolla-bianca img,
+#casolino img,
+#pepe-friggitel img,
+#minianguria img,
+#ficodindia img,
+#limone-g img,
+#limone-v img,
+#mandarance img,
+#nova img,
+#tarocco img,
+#basilico img,
+#broccolo img,
+#cime img,
+#lattuga img,
+#indivia img,
+#prezzemolo img,
+#rucola img,
+#patata img,
+#zucca-spinosa img,
+#mandarino img,
+#miyagawa img,
+#melacotogna img,
+#vittoria img,
+#red-globe img,
+#spinacia img,
+#aglio img,
+#carciofo img,
+#cipolla-dorata img,
+#piattella img,
+#finocchio img,
+#melanzana-viola img,
+#pomo-tondo img,
+#verza img,
+#zucca-gialla img,
+#zucchina-verde img,
+#zucchina-lunga img,
+#cetrangolo img,
+#pepe-cornetto-rosso img {
+	width: auto;
+	height: 400px;
+	margin-top: 5px;
 }
 
 @media only screen and (max-width : 992px) {
 
 	.right-column-container-tab {
 		display: block;
-		width: 40%;
+		width: 60%;
 	    height: 100%;
 	    position: fixed;
 	    top: 0;
-	    right: -34%;
+	    right: -51%;
 	    z-index: 9;
 	    -webkit-transition: 0.2s ease-in-out;
 		-moz-transition: 0.2s ease-in-out;
@@ -531,7 +598,9 @@
 		margin: 1.5% 1%;
 	}
 
-	.text-img-mob {
+	.text-img-mob-frt,
+	.text-img-mob-vrd,
+	.text-img-mob-ort {
 		display: block;
 	    position: absolute;
 	    width: 47.8%;
@@ -546,69 +615,31 @@
 	    border-bottom: 1px solid #C02040;
 	}
 
-	.img-cont img {
-	    width: auto;
-	    height: 230px;
-	    margin-top: 5px;
+	.right-column-text-img-vrd-mob,
+	.right-column-text-img-ort-mob {
+	    display: block;
+	    position: absolute;
+	    width: 94.4%;
+	    font-size: 24px;
+	    padding: 20px 0;
+	    margin: 84.5px 0;
+	    text-align: center;
+	    color: white;
+	    text-shadow: 0 0 3px black;
+	    border-top: 1px solid #181F1C;
+	    border-bottom: 1px solid #181F1C;
 	}
 
-	.img-cont .img img {
-		width: auto;
-		height: 300px;
-		margin-top: 5px;
+	.right-column-text-img-vrd-mob {
+		background-color: rgba(50,153,50,0.8);
+		border-top: 1px solid #329932;
+	    border-bottom: 1px solid #329932;
 	}
 
-	#melagrano img,
-	#cavolfiore-b img,
-	#canasta img,
-	#borlotto img,
-	#pesca img,
-	#susina-n img,
-	#italia img,
-	#matilde img,
-	#cavolfiore-v img,
-	#cicoria img,
-	#cipolla-bianca img,
-	#casolino img,
-	#pepe-friggitel img,
-	#minianguria img,
-	#ficodindia img,
-	#limone-g img,
-	#limone-v img,
-	#mandarance img,
-	#nova img,
-	#tarocco img,
-	#basilico img,
-	#broccolo img,
-	#cime img,
-	#lattuga img,
-	#indivia img,
-	#prezzemolo img,
-	#rucola img,
-	#patata img,
-	#zucca-spinosa img,
-	#mandarino img,
-	#miyagawa img,
-	#melacotogna img,
-	#vittoria img,
-	#red-globe img,
-	#spinacia img,
-	#aglio img,
-	#carciofo img,
-	#cipolla-dorata img,
-	#piattella img,
-	#finocchio img,
-	#melanzana-viola img,
-	#pomo-tondo img,
-	#verza img,
-	#zucca-gialla img,
-	#zucchina-verde img,
-	#zucchina-lunga img,
-	#cetrangolo img,
-	#pepe-cornetto-rosso img {
-		width: auto;
-		height: 300px;
-		margin-top: 5px;
+	.right-column-text-img-ort-mob {
+		background-color: rgba(129,32,32,0.8);
+		border-top: 1px solid #812020;
+	    border-bottom: 1px solid #812020;
 	}
 
 }
@@ -648,32 +679,7 @@
 		box-shadow: 0 0 6px rgba(0,0,0,0.5);
 	}
 
-	.right-column-text-img-vrd-mob,
-	.right-column-text-img-ort-mob {
-	    display: block;
-	    position: absolute;
-	    width: 94.4%;
-	    font-size: 24px;
-	    padding: 20px 0;
-	    margin: 40px 0;
-	    text-align: center;
-	    color: white;
-	    text-shadow: 0 0 3px black;
-	    border-top: 1px solid #181F1C;
-	    border-bottom: 1px solid #181F1C;
-	}
-
-	.right-column-text-img-vrd-mob {
-		background-color: rgba(50,153,50,0.8);
-		border-top: 1px solid #329932;
-	    border-bottom: 1px solid #329932;
-	}
-
-	.right-column-text-img-ort-mob {
-		background-color: rgba(129,32,32,0.8);
-		border-top: 1px solid #812020;
-	    border-bottom: 1px solid #812020;
-	}
+	
 
 	.right-column-list-mob h3 {
 		width: 100%;
@@ -758,14 +764,16 @@
 		height: 100%;
 	}
 
-	.text-img-mob {
+	.text-img-mob-frt,
+	.text-img-mob-vrd,
+	.text-img-mob-ort {
 		display: block;
 		position: absolute;
 	    width: 95.6%;
 	    font-size: 30px;
 	    background-color: rgba(192,32,64,0.8);
 	    padding: 20px 0;
-	    margin: 62.5px 0;
+	    margin: 61.5px 0;
 	    text-align: center;
 	    color: white;
 	    text-shadow: 0 0 3px black;
@@ -869,7 +877,9 @@
 		height: 150px;
 	}
 
-	.text-img-mob {
+	.text-img-mob-frt,
+	.text-img-mob-vrd,
+	.text-img-mob-ort {
 		font-size: 25px;
 		padding: 10px 0;
 		margin: 49px 0;

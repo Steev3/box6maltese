@@ -1,3 +1,9 @@
+.text-img-mob-vrd {
+	background-color: rgba(50,153,50,0.8);
+	border-top: 1px solid #329932;
+	border-bottom: 1px solid #329932;
+}
+
 /*Page before-after*/
 .page-bef-aft {
 	float: left;

@@ -303,7 +303,7 @@ $(document).ready(function() {
 	});
 	$(".right-column-menu-close-tab").click(function() {
 		$(".right-column-container-tab").css("z-index","9");
-		$(".right-column-container-tab").css("right","-34%");
+		$(".right-column-container-tab").css("right","-51%");
 		$(".right-column-menu-open-tab").css("display","block");
 		$(".right-column-menu-close-tab").css("display","none");
 	});

@@ -93,7 +93,7 @@
 	width: 40px;
 	height: 60px;
 	position: fixed;
-	right: 30px;
+	right: 100px;
 	bottom: -60px;
 	z-index: 99999;
 	border-radius: 10px 10px 0 0;
@@ -646,7 +646,7 @@
 	.right-column-text-img-ort-mob {
 	    display: block;
 	    position: absolute;
-	    width: 94.3%;
+	    width: 94.4%;
 	    font-size: 24px;
 	    padding: 20px 0;
 	    margin: 40px 0;
@@ -755,7 +755,7 @@
 	.text-img-mob {
 		display: block;
 		position: absolute;
-	    width: 95.5%;
+	    width: 95.6%;
 	    font-size: 30px;
 	    background-color: rgba(192,32,64,0.8);
 	    padding: 20px 0;
@@ -769,12 +769,6 @@
 
 	.img-cont .img {
 		height: 95%;
-		margin: 2.5% 0;
-	}
-
-	.img-cont .img img {
-		width: 100%;
-		height: auto;
 		margin: 2.5% 0;
 	}
 
@@ -800,13 +794,12 @@
 	.img-cont .img-categories {
 		width: 220px;
 		margin: 5px auto;
-		display: table;
 	}
 
 	.img-cont .img img {
 		width: 100%;
 		height: auto;
-		margin: 2.5% 0;
+		margin-top: 5px;
 	}
 
 	#melagrano img,
@@ -859,7 +852,7 @@
 	#pepe-cornetto-rosso img {
 		width: 100%;
 		height: auto;
-		margin: 2.5% 0;
+		margin-top: 5px;
 	}
 }
 

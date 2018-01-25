@@ -219,6 +219,15 @@
 	font-size: 1.4em;
 }
 
+.img-copy-protect {
+    position: absolute;
+    float: left;
+    width: 23.9%;
+    height: 240px;
+    border-radius: 20px;
+    /* background-color: rgba(0,0,0,0.3); */
+}
+
 .catalogue-elem {
 	width: calc(24% - 2px);
 	height: 240px;
@@ -529,6 +538,15 @@
 
 @media only screen and (max-width : 992px) {
 
+	.img-copy-protect {
+	    position: absolute;
+	    float: left;
+	    width: 47.9%;
+	    height: 240px;
+	    border-radius: 20px;
+	    /* background-color: rgba(0,0,0,0.3); */
+	}
+
 	.right-column-container-tab {
 		display: block;
 		width: 60%;
@@ -643,6 +661,15 @@
 
 @media only screen and (max-width : 600px) {
 
+	.img-copy-protect {
+	    position: absolute;
+	    float: left;
+	    width: 95.6%;
+    	height: 200px;
+	    border-radius: 20px;
+	    /* background-color: rgba(0,0,0,0.3); */
+	}
+
 	.right-column-container-mob {
 		display: block;
 		width: 100%;
@@ -739,14 +766,6 @@
 		border-top: 1px solid rgba(0,0,0,0.2);
 	}
 
-	.right-column-text-frt-mob {
-		background-color: #329932;
-	}
-
-	.right-column-text-ort-mob {
-		background-color: #B92F2F;
-	}
-
 	.right-column-text-frt-mob h2,
 	.right-column-text-ort-mob h2 {
 		width: 100%;
@@ -768,14 +787,24 @@
 		position: absolute;
 	    width: 95.6%;
 	    font-size: 30px;
-	    background-color: rgba(192,32,64,0.8);
 	    padding: 20px 0;
 	    margin: 61.5px 0;
 	    text-align: center;
 	    color: white;
 	    text-shadow: 0 0 3px black;
-	    border-top: 1px solid #C02040;
-    	border-bottom: 1px solid #C02040;
+	}
+
+	.right-column-text-img-vrd,
+	.right-column-text-img-ort {
+	    display: block;
+	    position: absolute;
+	    width: 94.4%;
+	    font-size: 24px;
+	    padding: 20px 0;
+	    margin: 39.5px 0;
+	    text-align: center;
+	    color: white;
+	    text-shadow: 0 0 3px black;
 	}
 
 	.img-cont .img {
@@ -868,18 +897,28 @@
 }
 
 @media screen and ( max-width:400px ) {
+	
+	.img-copy-protect {
+	    position: absolute;
+	    float: left;
+	    width: 95.6%;
+	    height: 150px;
+	    border-radius: 20px;
+	    /* background-color: rgba(0,0,0,0.3); */
+	}
+
 	.catalogue-elem {
 		width: calc(96% - 2px);
 		margin: 1.5% 2%;
 		height: 150px;
 	}
 
-	.text-img-mob-frt,
-	.text-img-mob-vrd,
-	.text-img-mob-ort {
+	.text-img-frt,
+	.text-img-vrd,
+	.text-img-ort {
 		font-size: 25px;
 		padding: 10px 0;
-		margin: 49px 0;
+		margin: 49.5px 0;
 	}
 
 }

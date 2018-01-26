@@ -1,3 +1,7 @@
+.introduct h1 {
+	color: #942525;
+}
+
 .text-img-ort {
 	background-color: rgba(148,37,37,0.8);
 	border-top: 1px solid #942525;
@@ -70,5 +74,19 @@
 	color: #BA082B;
 	font-weight: 600;
 	font-size: 1.4em;
+}
+
+@media screen and ( max-width:992px ) {
+	.page-bef-aft {
+	    width: 60%;
+	    margin: 30px 20%;
+	}
+}
+
+@media screen and ( max-width:600px ) {
+	.page-bef-aft {
+	    width: 95%;
+	    margin: 30px 2.5%;
+	}
 }
 /*Page before-after*/

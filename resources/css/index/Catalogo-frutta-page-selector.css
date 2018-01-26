@@ -1,3 +1,7 @@
+.introduct h1 {
+    color: #c02040;
+}
+
 .text-img-frt {
 	background-color: rgba(192,32,64,0.8);
 	border-top: 1px solid #C02040;
@@ -70,6 +74,13 @@
 	color: #C02040;
 	font-weight: 600;
 	font-size: 1.4em;
+}
+
+@media screen and ( max-width:992px ) {
+	.page-bef-aft {
+	    width: 60%;
+	    margin: 30px 20%;
+	}
 }
 
 @media screen and ( max-width:600px ) {

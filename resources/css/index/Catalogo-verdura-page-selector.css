@@ -29,6 +29,7 @@
 	border: 1px solid #181f1c;
 	border-radius: 20px;
 	overflow: hidden;
+	z-index: 999;
 }
 
 #page-before,

@@ -175,13 +175,7 @@
     height: 100%;
     float: left;
     overflow: hidden;
-    border-radius: 20px;
     margin: 20px 0;
-   -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
-	-moz-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
-	-o-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
-	-ms-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
-	box-shadow: 0 3px 6px rgba(0,0,0,0.5);
 }
 
 .catalog-categories {
@@ -189,13 +183,7 @@
     height: 100%;
     float: left;
     overflow: hidden;
-    border-radius: 20px;
     margin: 20px 0;
-   -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
-	-moz-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
-	-o-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
-	-ms-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
-	box-shadow: 0 3px 6px rgba(0,0,0,0.5);
 }
 
 .new-entry-month,
@@ -246,15 +234,15 @@
 }
 
 .img-copy-protect-catalog {
-    position: absolute;
-    float: left;
     width: 32.33%;
-    height: 240px;
-    border-radius: 20px;
-    /* background-color: rgba(0,0,0,0.3); */
+    height: 254px;
+    margin: 1.5% 0.5%;
+    float: left;
+    position: relative;
 }
 
 .img-copy-protect {
+	 /* 
     position: absolute;
     float: left;
     width: 24%;
@@ -272,70 +260,103 @@
     /* background-color: rgba(0,0,0,0.3); */
 }
 
-.catalogue-elem {
-	width: 24%;
-	height: 240px;
-	border-radius: 20px;
-	overflow: hidden;
-	float: left;
-	margin: 1.5% 0.5%;
-	background-color: white;
-	-webkit-transition: 0.3s ease-in-out;
-	-moz-transition: 0.3s ease-in-out;
-	-o-transition: 0.3s ease-in-out;
-	-ms-transition: 0.3s ease-in-out;
-	transition: 0.3s ease-in-out;
-	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
-	-moz-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
-	-o-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
-	-ms-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
-	box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+.link {
+	width: 49%;
+    height: auto;
+    float: left;
+    margin: 1.5% 0.5%;
+    background-color: #f3f3f3;
+    -webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	-ms-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
 }
 
-.catalogue-elem:hover {
+.link:hover {
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	-o-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	-ms-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
 	-webkit-transition: 0.2s ease-in-out;
 	-moz-transition: 0.2s ease-in-out;
 	-o-transition: 0.2s ease-in-out;
 	-ms-transition: 0.2s ease-in-out;
 	transition: 0.2s ease-in-out;
-	-webkit-box-shadow: 0 9px 18px rgba(0,0,0,0.5);
-	-moz-box-shadow: 0 9px 18px rgba(0,0,0,0.5);
-	-o-box-shadow: 0 9px 18px rgba(0,0,0,0.5);
-	-ms-box-shadow: 0 9px 18px rgba(0,0,0,0.5);
-	box-shadow: 0 6px 18px rgba(0,0,0,0.5);
 }
 
-.catalogue-elem:active {
+.link:active {
+	-webkit-box-shadow: 0 0 0 rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 0 0 rgba(0,0,0,0.2);
+	-o-box-shadow: 0 0 0 rgba(0,0,0,0.2);
+	-ms-box-shadow: 0 0 0 rgba(0,0,0,0.2);
+	box-shadow: 0 0 0 rgba(0,0,0,0.2);
 	-webkit-transition: 0s ease-in-out;
 	-moz-transition: 0s ease-in-out;
 	-o-transition: 0s ease-in-out;
 	-ms-transition: 0s ease-in-out;
 	transition: 0s ease-in-out;
-	-webkit-box-shadow: 0 0 0 rgba(0,0,0,0.5);
-	-moz-box-shadow: 0 0 0 rgba(0,0,0,0.5);
-	-o-box-shadow: 0 0 0 rgba(0,0,0,0.5);
-	-ms-box-shadow: 0 0 0 rgba(0,0,0,0.5);
-	box-shadow: 0 0 0 rgba(0,0,0,0.5);
+}
+
+.link-element {
+	width: 24.7%;
+    height: auto;
+    float: left;
+    margin: 0.15%;
+    background-color: #f3f3f3;
+    -webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	-ms-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+}
+
+.link-element:hover {
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	-moz-box-shadow:  0 0 5px rgba(0,0,0,0.5);
+	-o-box-shadow:  0 0 5px rgba(0,0,0,0.5);
+	-ms-box-shadow:  0 0 5px rgba(0,0,0,0.5);
+	box-shadow:  0 0 5px rgba(0,0,0,0.5);
+	-webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	-ms-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+}
+
+.link-active:active {
+	-webkit-box-shadow: 0 0 0 rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 0 0 rgba(0,0,0,0.2);
+	-o-box-shadow: 0 0 0 rgba(0,0,0,0.2);
+	-ms-box-shadow: 0 0 0 rgba(0,0,0,0.2);
+	box-shadow: 0 0 0 rgba(0,0,0,0.2);
+	-webkit-transition: 0s ease-in-out;
+	-moz-transition: 0s ease-in-out;
+	-o-transition: 0s ease-in-out;
+	-ms-transition: 0s ease-in-out;
+	transition: 0s ease-in-out;
+}
+
+.catalogue-elem {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	float: left;
 }
 
 .catalogue-categories {
-	width: 32.33%;
-	height: 240px;
-	border-radius: 20px;
-	overflow: hidden;
-	float: left;
-	margin: 1.5% 0.5%;
-	background-color: white;
-	-webkit-transition: 0.3s ease-in-out;
-	-moz-transition: 0.3s ease-in-out;
-	-o-transition: 0.3s ease-in-out;
-	-ms-transition: 0.3s ease-in-out;
-	transition: 0.3s ease-in-out;
-	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
-	-moz-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
-	-o-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
-	-ms-box-shadow: 0 3px 6px rgba(0,0,0,0.5);
-	box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+	width: 100%;
+    height: auto;
+    /* border-radius: 20px; */
+    overflow: hidden;
+    float: left;
+    /* border: 1px solid; */
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    transition: 0.3s 
 }
 
 .catalogue-categories:hover {
@@ -344,11 +365,6 @@
 	-o-transition: 0.2s ease-in-out;
 	-ms-transition: 0.2s ease-in-out;
 	transition: 0.2s ease-in-out;
-	-webkit-box-shadow: 0 9px 18px rgba(0,0,0,0.5);
-	-moz-box-shadow: 0 9px 18px rgba(0,0,0,0.5);
-	-o-box-shadow: 0 9px 18px rgba(0,0,0,0.5);
-	-ms-box-shadow: 0 9px 18px rgba(0,0,0,0.5);
-	box-shadow: 0 6px 18px rgba(0,0,0,0.5);
 }
 
 .catalogue-categories:active {
@@ -454,26 +470,15 @@
 	background-color: #942525;
 }
 */
+
 .img-cont {
-	width: 100%;
-	height: 80%;
-	margin: 0 auto;
-	display: table;
-	float: left;
+	margin: 20px 0;
 }
 
-.img-cont .img {
-	display: table-cell;
-	vertical-align: middle;
-	margin: 0 auto;
-}
-
-.img-cont img {
-	display: table-cell;
-}
-
-.img-cont .img-categories {
-	width: 250px;
+.img-cont .img-categories,
+.img-cont .img-catalog-element {
+	width: 200px;
+    height: auto;
 	margin: 0 auto;
 	display: table-cell;
 }
@@ -530,104 +535,59 @@
     border-bottom: 1px solid #181F1C;
 }
 
-.text-img-frt-catalog,
-.text-img-vrd-catalog,
-.text-img-ort-catalog {
-	display: block;
-	position: absolute;
-    width: 32.33%;
-    font-size: 25px;
-    padding: 20px 0;
-    margin: 84px 0;
-    text-align: center;
-    color: white;
-    text-shadow: 0 0 3px black;
+.text-img-catalog {
+	width: 100%;
+	float: left;
+	text-align: center;
+	color: #181F1C;
+	margin: 20px 0 5px 0;
+	font-size: 1.4em;
+	font-weight: 700;
+	letter-spacing: 1px;
 }
 
-.text-img-frt-catalog {
-	background-color: rgba(192,32,64,0.8);
-	border-top: 1px solid #C02040;
-	border-bottom: 1px solid #C02040;
+.img-cont .i-disp {
+	width: 100%;
+	text-align: center;
+	margin-top: 15px;
+	color: #329932;
 }
 
-.text-img-vrd-catalog {
-	background-color: rgba(50,153,50,0.8);
-	border-top: 1px solid #329932;
-	border-bottom: 1px solid #329932;
+.img-cont .i-not-disp {
+	width: 100%;
+	text-align: center;
+	margin-top: 15px;
+	color: #993232;
 }
 
-.text-img-ort-catalog {
-	background-color: rgba(148,37,37,0.8);
-	border-top: 1px solid #942525;
-	border-bottom: 1px solid #942525;
+h5 span {
+	color: #181F1C;
+	font-size: 1.4em;
 }
 
-#verdura-list-column img,
-#ortaggi-list-column img {
-	height: 300px;
+h2 span {
+	font-size: 0.5em;
+	text-transform: uppercase;
+
 }
 
-.img-cont .img img {
-	width: auto;
-	height: 400px;
-	margin-top: 5px;
+.undertext-img-catalog  {
+	width: 100%;
+	float: left;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 0 20px 0;
+	font-size: 0.9em;
+	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
 }
 
-#melagrano img,
-#cavolfiore-b img,
-#canasta img,
-#borlotto img,
-#pesca img,
-#susina-n img,
-#cavolfiore-v img,
-#cicoria img,
-#cipolla-bianca img,
-#casolino img,
-#pepe-friggitel img,
-#minianguria img,
-#ficodindia img,
-#limone-g img,
-#limone-v img,
-#mandarance img,
-#nova img,
-#tarocco img,
-#basilico img,
-#broccolo img,
-#cime img,
-#lattuga img,
-#indivia img,
-#prezzemolo img,
-#rucola img,
-#patata img,
-#zucca-spinosa img,
-#mandarino img,
-#miyagawa img,
-#melacotogna img,
-#spinacia img,
-#aglio img,
-#carciofo img,
-#cipolla-dorata img,
-#piattella img,
-#finocchio img,
-#melanzana-viola img,
-#pomo-tondo img,
-#verza img,
-#zucca-gialla img,
-#zucchina-verde img,
-#zucchina-lunga img,
-#cetrangolo img,
-#pepe-cornetto-rosso img {
-	width: auto;
-	height: 400px;
-	margin-top: 5px;
+.disp {
+	color: #329932;
 }
 
-#italia img,
-#matilde img,
-#vittoria img,
-#leopoldo img,
-#red-globe img {
-	height: 300px;
+.not-disp {
+	color: #993232;
 }
 
 @media only screen and (max-width : 992px) {

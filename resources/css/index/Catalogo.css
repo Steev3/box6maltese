@@ -455,6 +455,7 @@ h2 span {
 }
 
 @media only screen and (max-width : 750px) {
+	.img-cont .img-categories,
 	.img-cont .img-catalog-element {
 		width: 150px;
 	}
@@ -464,8 +465,16 @@ h2 span {
 	.link-element {
 		width: 49.5%;
 	}
-
+	
+	.img-cont .img-categories,
 	.img-cont .img-catalog-element {
-		width: 200px;
+		width: 150px;
+	}
+}
+
+@media only screen and (max-width : 350px) {
+	.img-cont .img-categories,
+	.img-cont .img-catalog-element {
+		width: 100px;
 	}
 }

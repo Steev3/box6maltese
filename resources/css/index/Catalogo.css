@@ -7,15 +7,15 @@
 	margin-top: calc(2.5% + 112px);
 }
 
-.elevator {
+.elevator-desktop {
 	width: 40px;
 	height: 60px;
 	position: fixed;
 	right: 200px;
-	bottom: -60px;
+	bottom: -70px;
 	z-index: 99999;
 	border-radius: 10px 10px 0 0;
-	background-color: #181F1C;
+	background-color: rgba(47,53,50,0.5);
 	-webkit-transition: 0.2s ease-in-out;
 	-moz-transition: 0.2s ease-in-out;
 	-o-transition: 0.2s ease-in-out;
@@ -28,7 +28,7 @@
 	box-shadow: 0 0 6px rgba(0,0,0,0.5);
 }
 
-.elevator:hover {
+.elevator-desktop:hover {
 	background-color: #329932;
 	-webkit-transition: 0.2s ease-in-out;
 	-moz-transition: 0.2s ease-in-out;
@@ -37,7 +37,7 @@
 	transition: 0.2s ease-in-out;
 }
 
-.elevator .arrow-up {
+.elevator-desktop .arrow-up {
 	width: 40px;
 	height: 40px;
 	font-size: 24px;
@@ -46,6 +46,10 @@
 	display: table-cell;
 	vertical-align: middle;
 	color: white;
+}
+
+.elevator-mobile {
+	display: none;
 }
 
 .introduct {
@@ -444,6 +448,52 @@ h2 span {
 
 @media only screen and (max-width : 992px) {
 
+	.elevator-desktop {
+		display: none;
+	}
+
+	.elevator-mobile {
+		display: block;
+		width: 40px;
+		height: 40px;
+		position: fixed;
+		right: -50px;
+		bottom: 50px;
+		z-index: 99999;
+		background-color: rgba(47,53,50,0.5);
+		-webkit-transition: 0.2s ease-in-out;
+		-moz-transition: 0.2s ease-in-out;
+		-o-transition: 0.2s ease-in-out;
+		-ms-transition: 0.2s ease-in-out;
+		transition: 0.2s ease-in-out;
+	}
+
+	.elevator-mobile:active {
+		background-color: #329932;
+		-webkit-transition: 0s ease-in-out;
+		-moz-transition: 0s ease-in-out;
+		-o-transition: 0s ease-in-out;
+		-ms-transition: 0s ease-in-out;
+		transition: 0s ease-in-out;
+	}
+
+	.elevator-mobile .arrow-up {
+		width: 40px;
+		height: 40px;
+		font-size: 24px;
+		font-weight: 400;
+		text-align: center;
+		display: table-cell;
+		vertical-align: middle;
+		color: white;
+	}
+
+	.container {
+		width: 100%;
+		margin: 2.5% 0;
+		margin-top: calc(2.5% + 60px);
+	}
+
 	.link-element {
 		width: 33%;
 	}
@@ -469,11 +519,6 @@ h2 span {
 }
 
 @media only screen and (max-width : 600px) {
-	.container {
-		width: 100%;
-		margin: 2.5% 0;
-		margin-top: calc(2.5% + 60px);
-	}
 
 	.link-element {
 		width: 49.5%;

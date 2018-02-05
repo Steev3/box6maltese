@@ -243,10 +243,20 @@ $(document).ready(function() {
 	$(function(){
 	    var hasBeenTrigged = false;
 	    $(window).scroll(function() {
-	        if ($(this).scrollTop() >= 700 && !hasBeenTrigged) { // if scroll is greater/equal then 100 and hasBeenTrigged is set to false.
-	            $(".elevator").css("bottom","0");
+	        if ($(this).scrollTop() >= 900 && !hasBeenTrigged) { // if scroll is greater/equal then 100 and hasBeenTrigged is set to false.
+	            $(".elevator-desktop").css("bottom","0");
 	        } else {
-	        	$(".elevator").css("bottom","-60px");
+	        	$(".elevator-desktop").css("bottom","-70px");
+	        }
+	    });
+	});
+	$(function(){
+	    var hasBeenTrigged = false;
+	    $(window).scroll(function() {
+	        if ($(this).scrollTop() >= 900 && !hasBeenTrigged) { // if scroll is greater/equal then 100 and hasBeenTrigged is set to false.
+	            $(".elevator-mobile").css("right","50px");
+	        } else {
+	        	$(".elevator-mobile").css("right","-50px");
 	        }
 	    });
 	});

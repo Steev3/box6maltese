@@ -37,7 +37,7 @@
 	transition: 0.2s ease-in-out;
 }
 
-.elevator i {
+.elevator .arrow-up {
 	width: 40px;
 	height: 40px;
 	font-size: 24px;
@@ -421,15 +421,15 @@ h2 span {
 #page-before h5,
 #current-page h5,
 #page-after h5 {
-	width: 1%;
-	height: 50px;
-	display: table-cell;
-	vertical-align: middle;
-	text-align: center;
-	text-transform: uppercase;
-	letter-spacing:1px;
-	color: white;
-	font-family: 'Montserrat', sans-serif;
+	width: 100%;
+    margin: 0;
+    font-size: 13px;
+    padding: 17px 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #current-page p {
@@ -449,6 +449,14 @@ h2 span {
 		width: 33%;
 	}
 
+	.link-element:hover {
+		-webkit-box-shadow: none;
+		-moz-box-shadow:  none;
+		-o-box-shadow:  none;
+		-ms-box-shadow:  none;
+		box-shadow:  none;
+	}
+
 	.container {
 		margin-top: calc(2.5% + 72px);
 	}
@@ -462,8 +470,15 @@ h2 span {
 }
 
 @media only screen and (max-width : 600px) {
+	.container {
+		width: 100%;
+		margin: 2.5% 0;
+		margin-top: calc(2.5% + 112px);
+	}
+
 	.link-element {
 		width: 49.5%;
+		margin: 0.25%;
 	}
 	
 	.img-cont .img-categories,

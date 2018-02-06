@@ -210,30 +210,45 @@ $(document).ready(function() {
       $(".mobile-img-index").css("display","block");
       $("#h4-under-title").css("display","block");
       $(".parallax-index").css("display","none");
+
+      $(".mobile-img-catalog").css("display","block");
+      $(".parallax-catalog").css("display","none");
 	};
 
 	if (isMobile.BlackBerry()) {
       $(".mobile-img-index").css("display","block");
       $("#h4-under-title").css("display","block");
       $(".parallax-index").css("display","none");
+
+      $(".mobile-img-catalog").css("display","block");
+      $(".parallax-catalog").css("display","none");
 	};
 
 	if (isMobile.iOS()) {
       $(".mobile-img-index").css("display","block");
       $("#h4-under-title").css("display","block");
       $(".parallax-index").css("display","none");
+
+      $(".mobile-img-catalog").css("display","block");
+      $(".parallax-catalog").css("display","none");
 	};
 
 	if (isMobile.Opera()) {
       $(".mobile-img-index").css("display","block");
       $("#h4-under-title").css("display","block");
       $(".parallax-index").css("display","none");
+
+      $(".mobile-img-catalog").css("display","block");
+      $(".parallax-catalog").css("display","none");
 	};
 
 	if (isMobile.Windows()) {
       $(".mobile-img-index").css("display","block");
       $("#h4-under-title").css("display","block");
       $(".parallax-index").css("display","none");
+
+      $(".mobile-img-catalog").css("display","block");
+      $(".parallax-catalog").css("display","none");
 	};
 });
 //User Agent

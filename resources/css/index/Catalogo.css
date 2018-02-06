@@ -10,8 +10,21 @@
     display: table;
 }
 
+.parallax-catalog h1,
+.mobile-img-catalog h1 {
+	position: absolute;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 100px;
+    width: 100%;
+    text-align: center;
+    margin: 89px 0;
+    text-shadow: 0 0 6px black;
+}
+
 .parallax-catalog {
-	background-image: url("ananas-head-catalog.jpg");
+	background-image: url("ananas-head-catalog-re.jpg");
 }
 
 .text-index-catalog {
@@ -40,6 +53,7 @@
 	height: 300px;
 	margin-top: 62px;
 	overflow: hidden;
+	background-color: black;
 }
 
 .mobile-img-catalog img {
@@ -495,6 +509,11 @@ h2 span {
 	    margin: 0 auto;
 	}
 
+	.mobile-img-catalog h1 {
+	    font-size: 80px;
+	    margin: 101.5px 0;
+	}
+
 	.elevator-desktop {
 		display: none;
 	}
@@ -579,6 +598,11 @@ h2 span {
 		width: 100%;
 		height: auto;
 	    margin: 0 auto;
+	}
+
+	.mobile-img-catalog h1 {
+		font-size: 50px;
+	    margin: 69.5px 0;
 	}
 
 	.container {

@@ -121,9 +121,17 @@
 	float: left;
 }
 
-.introduct h1 {
+.introduct h1,
+.introduct h2 {
 	text-align: center;
-	font-size: 1.8em;
+    font-size: 1.8em;
+    font-family: Montserrat;
+    font-weight: 300;
+    color: #181f1C;
+}
+
+.introduct h1 {
+	margin-top: 112px;
 }
 
 .introduct h5 {
@@ -552,6 +560,14 @@ h2 span {
 		display: table-cell;
 		vertical-align: middle;
 		color: white;
+	}
+
+	.introduct {
+		margin-top: 0;
+	}
+
+	.introduct h1 {
+		margin-top: 62px;
 	}
 
 	.container {

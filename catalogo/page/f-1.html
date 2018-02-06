@@ -44,12 +44,14 @@
 		<link href="https://fonts.googleapis.com/css?family=Cookie|Raleway" rel="stylesheet"/>
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
 		<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"/>
+		<link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
 		<!-- Google Fonts -->
 
 		<!-- Style CSS -->
 		<link href="../../resources/css/Header.css" type="text/css" rel="stylesheet"/>
 		<link href="../../resources/css/index/Catalogo.css" type="text/css" rel="stylesheet"/>
 		<link href="../../resources/css/Footer.css" type="text/css" rel="stylesheet"/>
+		<link href="https://fonts.googleapis.com/css?family=Tangerine:700" rel="stylesheet">
 		<!-- Style CSS -->
 	</head>
 	<body>
@@ -148,17 +150,15 @@
 				</ul>
 			</div>
 			<!-- Contacts in Desktop view -->
-			<div class="clear"></div>
-			<div class="head-title">
-				<div id="fruit-left">
-					<img src="../../resources/catalog-images/f-ananas.png" width="100px" alt="Fragola IMG" id="ananas-1">
-					<img src="../../resources/catalog-images/f-ananas.png" width="100px" alt="Fragola IMG" id="ananas-2">
-					<img src="../../resources/catalog-images/f-ananas.png" width="100px" alt="Fragola IMG" id="ananas-3">
-				</div>
-				<div id="title">
-					<h1>Catalogo frutta</h1>
-				</div>
+			<!-- IMG Catalog mobile -->
+			<div class="mobile-img-catalog">
+				<img src="../../resources/images/ananas-head-catalog.jpg" alt="Ananas IMG">
 			</div>
+			<!-- IMG Catalog mobile -->
+			<div class="clear"></div>
+			<!-- parallax IMG -->
+			<div class="parallax-catalog"></div>
+			<!-- parallax IMG -->
 			<div class="clear"></div>
 			<div class="container">
 				<a href="#top">
@@ -182,7 +182,7 @@
 									<div class="img">
 										<img src="../../resources/catalog-images/f-ananas.png" width="100px" alt="Ananas IMG" class="img-catalog-element">
 									</div>
-									<h2 class="text-img-catalog"><span></span><br>Ananas</h2>
+									<h2 class="text-img-catalog"><span id="new">Novità</span><br><span></span><br>Ananas</h2>
 									<i class="material-icons i-disp">done</i>
 									<h5 class="undertext-img-catalog disp"><b>disponibile</b><br>in questo momento</h5>
 								</div>
@@ -194,7 +194,7 @@
 									<div class="img">
 										<img src="../../resources/catalog-images/f-anguria.png" width="100px" alt="Anguria IMG" class="img-catalog-element">
 									</div>
-									<h2 class="text-img-catalog"><span></span><br>Anguria</h2>
+									<h2 class="text-img-catalog"><span id="new"></span><br><span></span><br>Anguria</h2>
 									<i class="material-icons i-not-disp">close</i>
 									<h5 class="undertext-img-catalog not-disp"><b>non disponibile</b><br>in questo momento</h5>
 								</div>
@@ -206,7 +206,7 @@
 									<div class="img">
 										<img src="../../resources/catalog-images/f-navel.png" width="100px" alt="Arancia Navel IMG" class="img-catalog-element">
 									</div>
-									<h2 class="text-img-catalog"><span>Arancia</span><br>Navel</h2>
+									<h2 class="text-img-catalog"><span id="new"></span><br><span>Arancia</span><br>Navel</h2>
 									<i class="material-icons i-disp">done</i>
 									<h5 class="undertext-img-catalog disp"><b>disponibile</b><br>in questo momento</h5>
 								</div>
@@ -218,7 +218,7 @@
 									<div class="img">
 										<img src="../../resources/catalog-images/f-tarocco.png" width="100px" alt="Arance Tarocco IMG" class="img-catalog-element">
 									</div>
-									<h2 class="text-img-catalog"><span>Arancia</span><br>Tarocco</h2>
+									<h2 class="text-img-catalog"><span id="new"></span><br><span>Arancia</span><br>Tarocco</h2>
 									<i class="material-icons i-disp">done</i>
 									<h5 class="undertext-img-catalog disp"><b>disponibile</b><br>in questo momento</h5>
 								</div>
@@ -230,7 +230,7 @@
 									<div class="img">
 										<img src="../../resources/catalog-images/f-vaniglia.png" width="100px" alt="Vaniglia IMG" class="img-catalog-element">
 									</div>
-									<h2 class="text-img-catalog"><span>Arancia</span><br>Vaniglia</h2>
+									<h2 class="text-img-catalog"><span id="new"></span><br><span>Arancia</span><br>Vaniglia</h2>
 									<i class="material-icons i-disp">done</i>
 									<h5 class="undertext-img-catalog disp"><b>disponibile</b><br>in questo momento</h5>
 								</div>
@@ -242,7 +242,7 @@
 									<div class="img">
 										<img src="../../resources/catalog-images/f-banana.png" width="100px" alt="Banana IMG" class="img-catalog-element">
 									</div>
-									<h2 class="text-img-catalog"><span></span><br>Banana</h2>
+									<h2 class="text-img-catalog"><span id="new">Novità</span><br><span></span><br>Banana</h2>
 									<i class="material-icons i-disp">done</i>
 									<h5 class="undertext-img-catalog disp"><b>disponibile</b><br>in questo momento</h5>
 								</div>
@@ -254,7 +254,7 @@
 									<div class="img">
 										<img src="../../resources/catalog-images/f-melacaki.png" width="100px" alt="Caco Mela IMG" class="img-catalog-element">
 									</div>
-									<h2 class="text-img-catalog"><span>caco</span><br>Mela</h2>
+									<h2 class="text-img-catalog"><span id="new">Novità</span><br><span>caco</span><br>Mela</h2>
 									<i class="material-icons i-disp">done</i>
 									<h5 class="undertext-img-catalog disp"><b>disponibile</b><br>in questo momento</h5>
 								</div>
@@ -266,7 +266,7 @@
 									<div class="img">
 										<img src="../../resources/catalog-images/f-cedro.png" width="100px" alt="Cedro IMG" class="img-catalog-element">
 									</div>
-									<h2 class="text-img-catalog"><span></span><br>Cedro</h2>
+									<h2 class="text-img-catalog"><span id="new"></span><br><span></span><br>Cedro</h2>
 									<i class="material-icons i-disp">done</i>
 									<h5 class="undertext-img-catalog disp"><b>disponibile</b><br>in questo momento</h5>
 								</div>
@@ -278,7 +278,7 @@
 									<div class="img">
 										<img src="../../resources/catalog-images/f-mandarance.png" width="100px" alt="Mandarance IMG" class="img-catalog-element">
 									</div>
-									<h2 class="text-img-catalog"><span></span><br>Clementina</h2>
+									<h2 class="text-img-catalog"><span id="new"></span><br><span></span><br>Clementina</h2>
 									<i class="material-icons i-disp">done</i>
 									<h5 class="undertext-img-catalog disp"><b>disponibile</b><br>in questo momento</h5>
 								</div>
@@ -290,7 +290,7 @@
 									<div class="img">
 										<img src="../../resources/catalog-images/f-fichidindia.png" width="100px" alt="Ficodindia IMG" class="img-catalog-element">
 									</div>
-									<h2 class="text-img-catalog"><span></span><br>Ficodindia</h2>
+									<h2 class="text-img-catalog"><span id="new"></span><br><span></span><br>Ficodindia</h2>
 									<i class="material-icons i-disp">done</i>
 									<h5 class="undertext-img-catalog disp"><b>disponibile</b><br>in questo momento</h5>
 								</div>
@@ -302,7 +302,7 @@
 									<div class="img">
 										<img src="../../resources/catalog-images/f-fragola.png" width="100px" alt="Fragola IMG" class="img-catalog-element">
 									</div>
-									<h2 class="text-img-catalog"><span></span><br>Fragola</h2>
+									<h2 class="text-img-catalog"><span id="new">Novità</span><br><span></span><br>Fragola</h2>
 									<i class="material-icons i-disp">done</i>
 									<h5 class="undertext-img-catalog disp"><b>disponibile</b><br>in questo momento</h5>
 								</div>
@@ -314,7 +314,7 @@
 									<div class="img">
 										<img src="../../resources/catalog-images/f-kiwi.png" width="100px" alt="Kiwi IMG" class="img-catalog-element">
 									</div>
-									<h2 class="text-img-catalog"><span></span><br>Kiwi</h2>
+									<h2 class="text-img-catalog"><span id="new">Novità</span><br><span></span><br>Kiwi</h2>
 									<i class="material-icons i-disp">done</i>
 									<h5 class="undertext-img-catalog disp"><b>disponibile</b><br>in questo momento</h5>
 								</div>
@@ -326,7 +326,7 @@
 									<div class="img">
 										<img src="../../resources/catalog-images/f-limone-giallo.png" width="100px" alt="Limone Giallo IMG" class="img-catalog-element">
 									</div>
-									<h2 class="text-img-catalog"><span>Limone</span><br>Giallo</h2>
+									<h2 class="text-img-catalog"><span id="new"></span><br><span>Limone</span><br>Giallo</h2>
 									<i class="material-icons i-disp">done</i>
 									<h5 class="undertext-img-catalog disp"><b>disponibile</b><br>in questo momento</h5>
 								</div>
@@ -338,7 +338,7 @@
 									<div class="img">
 										<img src="../../resources/catalog-images/f-limone-verde.png" width="100px" alt="Limone Verde IMG" class="img-catalog-element">
 									</div>
-									<h2 class="text-img-catalog"><span>Limone</span><br>Verde</h2>
+									<h2 class="text-img-catalog"><span id="new"></span><br><span>Limone</span><br>Verde</h2>
 									<i class="material-icons i-not-disp">close</i>
 									<h5 class="undertext-img-catalog not-disp"><b>non disponibile</b><br>in questo momento</h5>
 								</div>
@@ -350,7 +350,7 @@
 									<div class="img">
 										<img src="../../resources/catalog-images/f-mandarino.png" width="100px" alt="Mandarino IMG" class="img-catalog-element">
 									</div>
-									<h2 class="text-img-catalog"><span></span><br>Mandarino</h2>
+									<h2 class="text-img-catalog"><span id="new"></span><br><span></span><br>Mandarino</h2>
 									<i class="material-icons i-disp">done</i>
 									<h5 class="undertext-img-catalog disp"><b>disponibile</b><br>in questo momento</h5>
 								</div>
@@ -362,7 +362,7 @@
 									<div class="img">
 										<img src="../../resources/catalog-images/f-miyagawa.png" width="100px" alt="Miyagawa IMG" class="img-catalog-element">
 									</div>
-									<h2 class="text-img-catalog"><span>Mandarino</span><br>Miyagawa</h2>
+									<h2 class="text-img-catalog"><span id="new"></span><br><span>Mandarino</span><br>Miyagawa</h2>
 									<i class="material-icons i-not-disp">close</i>
 									<h5 class="undertext-img-catalog not-disp"><b>non disponibile</b><br>in questo momento</h5>
 								</div>
@@ -374,7 +374,7 @@
 									<div class="img">
 										<img src="../../resources/catalog-images/f-nova.png" width="100px" alt="Nova IMG" class="img-catalog-element">
 									</div>
-									<h2 class="text-img-catalog"><span>Mandarino</span><br>Nova</h2>
+									<h2 class="text-img-catalog"><span id="new"></span><br><span>Mandarino</span><br>Nova</h2>
 									<i class="material-icons i-disp">done</i>
 									<h5 class="undertext-img-catalog disp"><b>disponibile</b><br>in questo momento</h5>
 								</div>
@@ -386,7 +386,7 @@
 									<div class="img">
 										<img src="../../resources/catalog-images/f-melagrano.png" width="100px" alt="Melagrano IMG" class="img-catalog-element">
 									</div>
-									<h2 class="text-img-catalog"><span></span><br>Melagrano</h2>
+									<h2 class="text-img-catalog"><span id="new"></span><br><span></span><br>Melagrano</h2>
 									<i class="material-icons i-not-disp">close</i>
 									<h5 class="undertext-img-catalog not-disp"><b>non disponibile</b><br>in questo momento</h5>
 								</div>
@@ -398,7 +398,7 @@
 									<div class="img">
 										<img src="../../resources/catalog-images/f-melacotogna.png" width="100px" alt="Mela Cotogna IMG" class="img-catalog-element">
 									</div>
-									<h2 class="text-img-catalog"><span>Mela</span><br>Cotogna</h2>
+									<h2 class="text-img-catalog"><span id="new"></span><br><span>Mela</span><br>Cotogna</h2>
 									<i class="material-icons i-not-disp">close</i>
 									<h5 class="undertext-img-catalog not-disp"><b>non disponibile</b><br>in questo momento</h5>
 								</div>
@@ -410,7 +410,7 @@
 									<div class="img">
 										<img src="../../resources/catalog-images/f-mela-golden.png" width="100px" alt="Mela Golden IMG" class="img-catalog-element">
 									</div>
-									<h2 class="text-img-catalog"><span>Mela</span><br>Golden</h2>
+									<h2 class="text-img-catalog"><span id="new">Novità</span><br><span>Mela</span><br>Golden</h2>
 									<i class="material-icons i-disp">done</i>
 									<h5 class="undertext-img-catalog disp"><b>disponibile</b><br>in questo momento</h5>
 								</div>

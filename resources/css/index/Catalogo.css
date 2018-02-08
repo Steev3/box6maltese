@@ -197,8 +197,14 @@
 	font-size: 1.4em;
 }
 
+.shopping-button {
+	width: 70%;
+	margin: 10px 15% 0;
+	float: left;
+}
+
 .link {
-	width: 49%;
+	width: 32.3%;
     height: auto;
     float: left;
     margin: 1.5% 0.5%;

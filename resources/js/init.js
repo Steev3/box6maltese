@@ -89,35 +89,6 @@ $(document).ready(function() {
 });
 //Mobile menu contact opener
 
-//Mobile contact categories closing when open others
-$(document).ready(function() {
-	$("#cell-numb-dar-open").click(function(){
-		$("#providers-ste").css("height","0");
-		$("#cell-numb-ste-open").css("display","block");
-		$("#cell-numb-ste-close").css("display","none");
-		$("#map-address").css("height","0");
-		$("#address-open").css("display","block");
-		$("#address-close").css("display","none");
-	});
-	$("#cell-numb-ste-open").click(function(){
-		$("#providers-dar").css("height","0");
-		$("#cell-numb-dar-open").css("display","block");
-		$("#cell-numb-dar-close").css("display","none");
-		$("#map-address").css("height","0");
-		$("#address-open").css("display","block");
-		$("#address-close").css("display","none");
-	});
-	$("#address-open").click(function(){
-		$("#providers-dar").css("height","0");
-		$("#cell-numb-dar-open").css("display","block");
-		$("#cell-numb-dar-close").css("display","none");
-		$("#providers-ste").css("height","0");
-		$("#cell-numb-ste-open").css("display","block");
-		$("#cell-numb-ste-close").css("display","none");
-	});
-});
-//Mobile contact categories closing when open others
-
 //Mobile menu contact closer (phone icon in nav bar)
 $(document).ready(function() {
 	$("#btn-contact-close").click(function() {

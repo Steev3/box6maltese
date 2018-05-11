@@ -29,6 +29,15 @@ $(document).ready(function() {
 		$(".flyout-content-mobile").css("height","0");
 		$(".services-on").css("display","block");
 		$(".services-off").css("display","none");
+		$("#providers-dar").css("height","0");
+		$("#cell-numb-dar-open").css("display","block");
+		$("#cell-numb-dar-close").css("display","none");
+		$("#providers-ste").css("height","0");
+		$("#cell-numb-ste-open").css("display","block");
+		$("#cell-numb-ste-close").css("display","none");
+		$("#map-address").css("height","0");
+		$("#address-open").css("display","block");
+		$("#address-close").css("display","none");
 	});
 	$("#btn-menu-close").click(function() {
 		$(".navbar-mobile").css("height","62px");
@@ -53,7 +62,7 @@ $(document).ready(function() {
 		$("#cell-numb-dar-open").css("display","block");
 		$("#cell-numb-dar-close").css("display","none");
 	});
-		$("#cell-numb-ste-open").click(function(){
+	$("#cell-numb-ste-open").click(function(){
 		$("#providers-ste").css("height","410px");
 		$("#cell-numb-ste-open").css("display","none");
 		$("#cell-numb-ste-close").css("display","block");
@@ -63,54 +72,71 @@ $(document).ready(function() {
 		$("#cell-numb-ste-open").css("display","block");
 		$("#cell-numb-ste-close").css("display","none");
 	});
+	$("#address-open").click(function(){
+		$(".navbar-mobile").css("height","533px");
+		$("#ul-contact").css("height","493px");
+		$("#map-address").css("height","103px");
+		$("#address-open").css("display","none");
+		$("#address-close").css("display","block");
+	});
+	$("#address-close").click(function(){
+		$(".navbar-mobile").css("height","440px");
+		$("#ul-contact").css("height","400px");
+		$("#map-address").css("height","0");
+		$("#address-open").css("display","block");
+		$("#address-close").css("display","none");
+	});
 });
 //Mobile menu contact opener
 
-//Mobile menu activator catalog
+//Mobile contact categories closing when open others
 $(document).ready(function() {
-	$("#btn-menu-catalog").click(function() {
-		$(".navbar-mobile-catalog").css("height","212px");
-		$("#ul-mobile-catalog").css("height","150px");
+	$("#cell-numb-dar-open").click(function(){
+		$("#providers-ste").css("height","0");
+		$("#cell-numb-ste-open").css("display","block");
+		$("#cell-numb-ste-close").css("display","none");
+		$("#map-address").css("height","0");
+		$("#address-open").css("display","block");
+		$("#address-close").css("display","none");
+	});
+	$("#cell-numb-ste-open").click(function(){
+		$("#providers-dar").css("height","0");
+		$("#cell-numb-dar-open").css("display","block");
+		$("#cell-numb-dar-close").css("display","none");
+		$("#map-address").css("height","0");
+		$("#address-open").css("display","block");
+		$("#address-close").css("display","none");
+	});
+	$("#address-open").click(function(){
+		$("#providers-dar").css("height","0");
+		$("#cell-numb-dar-open").css("display","block");
+		$("#cell-numb-dar-close").css("display","none");
+		$("#providers-ste").css("height","0");
+		$("#cell-numb-ste-open").css("display","block");
+		$("#cell-numb-ste-close").css("display","none");
+	});
+});
+//Mobile contact categories closing when open others
+
+//Mobile menu contact closer (phone icon in nav bar)
+$(document).ready(function() {
+	$("#btn-contact-close").click(function() {
+		$(".navbar-mobile").css("height","62px");
 		$("#ul-contact").css("height","0");
-		$("#btn-menu-close-catalog").css("display","block");
-		$("#btn-menu-catalog").css("display","none");
 		$("#btn-contact").css("display","block");
 		$("#btn-contact-close").css("display","none");
-		$(".obscurator").fadeIn();
-		$("body").css("overflow-y","hidden");
-		$(".flyout-content-mobile").css("height","0");
-		$(".services-on").css("display","block");
-		$(".services-off").css("display","none");
-	});
-	$("#btn-menu-close-catalog").click(function() {
-		$(".navbar-mobile-catalog").css("height","62px");
-		$("#ul-mobile-catalog").css("height","0");
-		$("#btn-menu-close-catalog").css("display","none");
-		$("#btn-menu-catalog").css("display","block");
-		$(".obscurator").fadeOut();
-		$("body").css("overflow-y","auto");
+		$("#providers-dar").css("height","0");
+		$("#cell-numb-dar-open").css("display","block");
+		$("#cell-numb-dar-close").css("display","none");
+		$("#providers-ste").css("height","0");
+		$("#cell-numb-ste-open").css("display","block");
+		$("#cell-numb-ste-close").css("display","none");
+		$("#map-address").css("height","0");
+		$("#address-open").css("display","block");
+		$("#address-close").css("display","none");
 	});
 });
-//Mobile menu activator atalog
-
-//Mobile flyout activator
-$(document).ready(function() {
-	$(".services-on").click(function() {
-		$(".navbar-mobile").css("height","512px");
-		$("#ul-mobile").css("height","450px");
-		$(".flyout-content-mobile").css("height","100px");
-		$(".services-on").css("display","none");
-		$(".services-off").css("display","block");
-	});
-	$(".services-off").click(function() {
-		$(".navbar-mobile").css("height","412px");
-		$("#ul-mobile").css("height","350px");
-		$(".flyout-content-mobile").css("height","0");
-		$(".services-on").css("display","block");
-		$(".services-off").css("display","none");
-	});
-});
-//Mobile flyout activator
+//Mobile menu contact closer
 
 //Mobile contacts activator
 $(document).ready(function() {
@@ -185,6 +211,15 @@ $(document).ready(function() {
 		$(".flyout-content-mobile").css("height","0");
 		$(".services-on").css("display","block");
 		$(".services-off").css("display","none");
+		$("#providers-dar").css("height","0");
+		$("#cell-numb-dar-open").css("display","block");
+		$("#cell-numb-dar-close").css("display","none");
+		$("#providers-ste").css("height","0");
+		$("#cell-numb-ste-open").css("display","block");
+		$("#cell-numb-ste-close").css("display","none");
+		$("#map-address").css("height","0");
+		$("#address-open").css("display","block");
+		$("#address-close").css("display","none");
 	});
 	$(".obscurator").click(function() {
 		$(".navbar-mobile").css("height","62px");
@@ -203,6 +238,15 @@ $(document).ready(function() {
 		$(".flyout-content-mobile").css("height","0");
 		$(".services-on").css("display","block");
 		$(".services-off").css("display","none");
+		$("#providers-dar").css("height","0");
+		$("#cell-numb-dar-open").css("display","block");
+		$("#cell-numb-dar-close").css("display","none");
+		$("#providers-ste").css("height","0");
+		$("#cell-numb-ste-open").css("display","block");
+		$("#cell-numb-ste-close").css("display","none");
+		$("#map-address").css("height","0");
+		$("#address-open").css("display","block");
+		$("#address-close").css("display","none");
 	});
 });
 //Brandlogo e obscurator close menu

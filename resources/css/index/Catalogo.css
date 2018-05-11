@@ -199,7 +199,7 @@
 
 .shopping-button {
 	width: 70%;
-	margin: 10px 15% 0;
+	margin: 15px 15%;
 	float: left;
 }
 
@@ -243,7 +243,7 @@
 	transition: 0s ease-in-out;
 }
 
-.link-element {
+.product-element {
 	width: 24.7%;
     height: auto;
     float: left;
@@ -254,32 +254,6 @@
 	-o-transition: 0.2s ease-in-out;
 	-ms-transition: 0.2s ease-in-out;
 	transition: 0.2s ease-in-out;
-}
-
-.link-element:hover {
-	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
-	-moz-box-shadow:  0 0 5px rgba(0,0,0,0.5);
-	-o-box-shadow:  0 0 5px rgba(0,0,0,0.5);
-	-ms-box-shadow:  0 0 5px rgba(0,0,0,0.5);
-	box-shadow:  0 0 5px rgba(0,0,0,0.5);
-	-webkit-transition: 0.2s ease-in-out;
-	-moz-transition: 0.2s ease-in-out;
-	-o-transition: 0.2s ease-in-out;
-	-ms-transition: 0.2s ease-in-out;
-	transition: 0.2s ease-in-out;
-}
-
-.link-active:active {
-	-webkit-box-shadow: 0 0 0 rgba(0,0,0,0.2);
-	-moz-box-shadow: 0 0 0 rgba(0,0,0,0.2);
-	-o-box-shadow: 0 0 0 rgba(0,0,0,0.2);
-	-ms-box-shadow: 0 0 0 rgba(0,0,0,0.2);
-	box-shadow: 0 0 0 rgba(0,0,0,0.2);
-	-webkit-transition: 0s ease-in-out;
-	-moz-transition: 0s ease-in-out;
-	-o-transition: 0s ease-in-out;
-	-ms-transition: 0s ease-in-out;
-	transition: 0s ease-in-out;
 }
 
 .catalogue-elem {

@@ -1,3 +1,4 @@
+
 /*<![CDATA[*/
 
 (function () {
@@ -30,12 +31,11 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: [491243470902],
-        variantId: 6792944779318,
-        node: document.getElementById('product-component-316406cce87'),
+        node: document.getElementById('product-component-8ff614c9958'),
         moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
         options: {
   "product": {
-    "variantId": "6792944779318",
+    "variantId": "all",
     "width": "240px",
     "isButton": false,
     "contents": {
@@ -43,7 +43,6 @@
       "imgWithCarousel": false,
       "title": false,
       "variantTitle": false,
-      "options": false,
       "price": false,
       "description": false,
       "buttonWithQuantity": true,
@@ -107,7 +106,7 @@
       "button": true
     },
     "text": {
-      "title": "Carrello",
+      "title": "CARRELLO",
       "total": "Subtotale",
       "notice": "I codici di spedizione e di sconto saranno aggiunti al momento del pagamento.",
       "button": "PAGAMENTO",

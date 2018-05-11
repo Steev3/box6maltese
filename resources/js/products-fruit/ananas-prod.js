@@ -30,10 +30,11 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: [491223449654],
-        node: document.getElementById('product-component-e812e861b18'),
+        node: document.getElementById('product-component-61a64b53620'),
         moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
         options: {
   "product": {
+    "buttonDestination": "modal",
     "variantId": "all",
     "width": "240px",
     "isButton": false,
@@ -42,14 +43,14 @@
       "imgWithCarousel": false,
       "title": false,
       "variantTitle": false,
+      "options": false,
       "price": false,
       "description": false,
-      "buttonWithQuantity": true,
-      "button": false,
+      "buttonWithQuantity": false,
       "quantity": false
     },
     "text": {
-      "button": "AGGIUNGI"
+      "button": "DETTAGLI PRODOTTO"
     },
     "styles": {
       "product": {
@@ -76,7 +77,8 @@
       },
       "title": {
         "font-family": "Montserrat, sans-serif",
-        "font-weight": "normal"
+        "font-weight": "normal",
+        "font-size": "26px"
       },
       "description": {
         "font-family": "Montserrat, sans-serif",
@@ -84,10 +86,11 @@
       },
       "price": {
         "font-family": "Montserrat, sans-serif",
+        "font-size": "18px",
         "font-weight": "normal"
       },
       "compareAt": {
-        "font-size": "12px",
+        "font-size": "15px",
         "font-family": "Montserrat, sans-serif",
         "font-weight": "normal"
       }
@@ -134,6 +137,9 @@
       "buttonWithQuantity": true,
       "button": false,
       "quantity": false
+    },
+    "text": {
+      "button": "AGGIUNGI"
     },
     "styles": {
       "product": {

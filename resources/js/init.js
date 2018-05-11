@@ -17,7 +17,7 @@ $(document).ready(function() {
 //Mobile menu activator
 $(document).ready(function() {
 	$("#btn-menu").click(function() {
-		$(".navbar-mobile").css("height","412px");
+		$(".navbar-mobile").css("height","312px");
 		$("#ul-mobile").css("height","350px");
 		$("#ul-contact").css("height","0");
 		$("#btn-menu-close").css("display","block");
@@ -40,6 +40,31 @@ $(document).ready(function() {
 	});
 });
 //Mobile menu activator
+
+//Mobile menu contact opener
+$(document).ready(function() {
+	$("#cell-numb-dar-open").click(function(){
+		$("#providers-dar").css("height","410px");
+		$("#cell-numb-dar-open").css("display","none");
+		$("#cell-numb-dar-close").css("display","block");
+	});
+	$("#cell-numb-dar-close").click(function(){
+		$("#providers-dar").css("height","0");
+		$("#cell-numb-dar-open").css("display","block");
+		$("#cell-numb-dar-close").css("display","none");
+	});
+		$("#cell-numb-ste-open").click(function(){
+		$("#providers-ste").css("height","410px");
+		$("#cell-numb-ste-open").css("display","none");
+		$("#cell-numb-ste-close").css("display","block");
+	});
+	$("#cell-numb-ste-close").click(function(){
+		$("#providers-ste").css("height","0");
+		$("#cell-numb-ste-open").css("display","block");
+		$("#cell-numb-ste-close").css("display","none");
+	});
+});
+//Mobile menu contact opener
 
 //Mobile menu activator catalog
 $(document).ready(function() {
@@ -90,7 +115,7 @@ $(document).ready(function() {
 //Mobile contacts activator
 $(document).ready(function() {
 	$("#btn-contact").click(function() {
-		$(".navbar-mobile").css("height","462px");
+		$(".navbar-mobile").css("height","440px");
 		$("#ul-mobile").css("height","0");
 		$("#ul-contact").css("height","400px");
 		$("#btn-contact-close").css("display","block");
@@ -119,7 +144,7 @@ $(document).ready(function() {
 	$("#btn-contact").click(function() {
 		$(".navbar-mobile-catalog").css("height","462px");
 		$("#ul-mobile-catalog").css("height","0");
-		$("#ul-contact").css("height","400px");
+		$("#ul-contact").css("height","378px");
 		$("#btn-contact-close").css("display","block");
 		$("#btn-contact").css("display","none");
 		$("#btn-menu-catalog").css("display","block");

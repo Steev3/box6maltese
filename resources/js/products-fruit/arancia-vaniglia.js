@@ -1,3 +1,4 @@
+
 /*<![CDATA[*/
 
 (function () {
@@ -29,8 +30,8 @@
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: [491223449654],
-        node: document.getElementById('product-component-e812e861b18'),
+        id: [493054132278],
+        node: document.getElementById('product-component-9f6d19efb9e'),
         moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
         options: {
   "product": {

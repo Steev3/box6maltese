@@ -437,7 +437,6 @@ nav {
 
 	.mobile-contact {
 		width: 100%;
-		height: 300px;
 		position: relative;
 		float: left;
 		margin: 0;
@@ -499,6 +498,7 @@ nav {
 		float: left;
 		overflow: hidden;
 		background-color: #2f3532;
+		box-shadow: 0 0 10px black inset;
 		-webkit-transition: 0.3s ease-in-out;
 		-moz-transition: 0.3s ease-in-out;
 		-o-transition: 0.3s ease-in-out;
@@ -514,7 +514,6 @@ nav {
 		color: white;
 		text-decoration: none;
 		text-transform: uppercase;
-		border-bottom: 1px solid #181f1c;
 		-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
 		-o-box-sizing: border-box;
@@ -556,7 +555,7 @@ nav {
 	}
 
 	.mobile-contact .providers > a {
-		width: 100%;
+		width: 25%;
 	}
 }
 	

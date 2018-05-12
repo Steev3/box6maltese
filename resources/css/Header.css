@@ -498,7 +498,6 @@ nav {
 		float: left;
 		overflow: hidden;
 		background-color: #2f3532;
-		box-shadow: 0 0 10px black inset;
 		-webkit-transition: 0.3s ease-in-out;
 		-moz-transition: 0.3s ease-in-out;
 		-o-transition: 0.3s ease-in-out;

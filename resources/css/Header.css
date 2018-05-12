@@ -354,14 +354,12 @@ nav {
 		color: #181F1C;
 	}
 
-	#ul-mobile-catalog,
 	#ul-mobile {
 		width: 100%;
 		height: 0;
 		overflow-y: auto;
 		margin: 0;
 		padding: 0;
-		background-color: rgba(0,0,0,0.05);
 		-webkit-transition-duration: 0.5s;
 		-moz-transition-duration: 0.5s;
 		-o-transition-duration: 0.5s;
@@ -369,26 +367,31 @@ nav {
 		transition-duration: 0.5s;
 	}
 
-	#ul-mobile-catalog li,
 	#ul-mobile li {
 		width: 100%;
-		height: 50px;
+		background-color: white;
 		list-style-type: none;
-		display: table;
 	}
 
-	#ul-mobile-catalog li a,
 	#ul-mobile li a {
 		width: 100%;
 		text-decoration: none;
 		color: #181F1C;
+		padding: 15px 0;
+		border-top: 1px solid #181f1c;
+		border-bottom: 1px solid #181f1c;
+		float: left;
 		text-align: center;
-		display: table-cell;
-		vertical-align: middle;
-		border-top: 1px solid rgba(0,0,0,0.2);
 	}
 
-	#ul-mobile-catalog li a:hover,
+	#ul-mobile #home-line {
+		border-top: 2px solid #181f1c;
+	}
+
+	#ul-mobile #clock-line {
+		border-bottom: 2px solid #181f1c;
+	}
+
 	#ul-mobile li a:hover {
 		background-color: #329932;
 		color: white;
@@ -472,11 +475,21 @@ nav {
 		text-align: center;
 		color: #181f1c;
 		letter-spacing: 1px;
-		padding: 35px 0;
+		padding: 15px 0;
 		border-top: 1px solid #181f1c;
 		border-bottom: 1px solid #181f1c;
 		margin: 0;
 		font-family: 'Montserrat', sans-serif;
+	}
+
+	#ul-contact li > #cell-numb-dar-open:hover,
+	#ul-contact li > #cell-numb-dar-close:hover,
+	#ul-contact li > #cell-numb-ste-open:hover,
+	#ul-contact li > #cell-numb-ste-close:hover,
+	#ul-contact li > #address-open:hover,
+	#ul-contact li > #address-close:hover {
+		color: white;
+		background-color: #329932;
 	}
 
 	#ul-contact li > #cell-numb-dar-open,
@@ -494,7 +507,10 @@ nav {
 	#ul-contact li > #address-close {
 		display: none;
 	}
-
+	#icon-menu-home,
+	#icon-menu-question,
+	#icon-menu-box,
+	#icon-menu-clock,
 	#icon-numb-dar,
 	#icon-numb-ste,
 	#icon-address,

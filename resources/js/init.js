@@ -17,8 +17,8 @@ $(document).ready(function() {
 //Mobile menu activator
 $(document).ready(function() {
 	$("#btn-menu").click(function() {
-		$(".navbar-mobile").css("height","312px");
-		$("#ul-mobile").css("height","350px");
+		$(".navbar-mobile").css("height","440px");
+		$("#ul-mobile").css("height","380px");
 		$("#ul-contact").css("height","0");
 		$("#btn-menu-close").css("display","block");
 		$("#btn-menu").css("display","none");
@@ -108,9 +108,9 @@ $(document).ready(function() {
 //Mobile contacts activator
 $(document).ready(function() {
 	$("#btn-contact").click(function() {
-		$(".navbar-mobile").css("height","560px");
+		$(".navbar-mobile").css("height","440px");
 		$("#ul-mobile").css("height","0");
-		$("#ul-contact").css("height","400px");
+		$("#ul-contact").css("height","380px");
 		$("#btn-contact-close").css("display","block");
 		$("#btn-contact").css("display","none");
 		$("#btn-menu").css("display","block");
@@ -135,9 +135,7 @@ $(document).ready(function() {
 //Mobile contacts activator catalog
 $(document).ready(function() {
 	$("#btn-contact").click(function() {
-		$(".navbar-mobile-catalog").css("height","462px");
-		$("#ul-mobile-catalog").css("height","0");
-		$("#ul-contact").css("height","500px");
+		$("#ul-contact").css("height","380px");
 		$("#btn-contact-close").css("display","block");
 		$("#btn-contact").css("display","none");
 		$("#btn-menu-catalog").css("display","block");

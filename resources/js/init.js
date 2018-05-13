@@ -50,6 +50,43 @@ $(document).ready(function() {
 });
 //Mobile menu activator
 
+//Mobile menu closing on click links
+$(document).ready(function() {
+	$("#home-line").click(function() {
+		$(".navbar-mobile").css("height","62px");
+		$("#ul-mobile").css("height","0");
+		$("#btn-menu-close").css("display","none");
+		$("#btn-menu").css("display","block");
+		$(".obscurator").fadeOut();
+		$("body").css("overflow-y","auto");
+	});
+	$("#who").click(function() {
+		$(".navbar-mobile").css("height","62px");
+		$("#ul-mobile").css("height","0");
+		$("#btn-menu-close").css("display","none");
+		$("#btn-menu").css("display","block");
+		$(".obscurator").fadeOut();
+		$("body").css("overflow-y","auto");
+	});
+	$("#why").click(function() {
+		$(".navbar-mobile").css("height","62px");
+		$("#ul-mobile").css("height","0");
+		$("#btn-menu-close").css("display","none");
+		$("#btn-menu").css("display","block");
+		$(".obscurator").fadeOut();
+		$("body").css("overflow-y","auto");
+	});
+	$("#clock-line").click(function() {
+		$(".navbar-mobile").css("height","62px");
+		$("#ul-mobile").css("height","0");
+		$("#btn-menu-close").css("display","none");
+		$("#btn-menu").css("display","block");
+		$(".obscurator").fadeOut();
+		$("body").css("overflow-y","auto");
+	});
+});
+//Mobile menu closing on click links
+
 //Mobile menu contact opener
 $(document).ready(function() {
 	$("#cell-numb-dar-open").click(function(){
@@ -132,7 +169,36 @@ $(document).ready(function() {
 });
 //Mobile contacts activator
 
-//Mobile contacts activator catalog
+//Closing contact subcategories
+$(document).ready(function() {
+	$("#cell-numb-dar-open").click(function() {
+		$("#providers-ste").css("height","0");
+		$("#cell-numb-ste-open").css("display","block");
+		$("#cell-numb-ste-close").css("display","none");
+		$("#map-address").css("height","0");
+		$("#address-open").css("display","block");
+		$("#address-close").css("display","none");
+	});
+	$("#cell-numb-ste-open").click(function() {
+		$("#providers-dar").css("height","0");
+		$("#cell-numb-dar-open").css("display","block");
+		$("#cell-numb-dar-close").css("display","none");
+		$("#map-address").css("height","0");
+		$("#address-open").css("display","block");
+		$("#address-close").css("display","none");
+	});
+	$("#address-open").click(function() {
+		$("#providers-dar").css("height","0");
+		$("#cell-numb-dar-open").css("display","block");
+		$("#cell-numb-dar-close").css("display","none");
+		$("#providers-ste").css("height","0");
+		$("#cell-numb-ste-open").css("display","block");
+		$("#cell-numb-ste-close").css("display","none");
+	});
+});
+//Closing contact subcategories
+
+//Mobile contacts activator
 $(document).ready(function() {
 	$("#btn-contact").click(function() {
 		$("#ul-contact").css("height","380px");
@@ -155,7 +221,7 @@ $(document).ready(function() {
 		$("body").css("overflow-y","auto");
 	});
 });
-//Mobile contacts activator catalog
+//Mobile contacts activator
 
 //Brandlogo e obscurator close menu
 $(document).ready(function() {

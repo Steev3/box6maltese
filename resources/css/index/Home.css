@@ -113,7 +113,6 @@ html, body {
 	margin: 0;
 	padding: 30px 5%;
 	letter-spacing: 1px;
-	border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
 .info p {
@@ -219,6 +218,7 @@ html, body {
 	vertical-align: middle;
 }
 
+.chi-siamo-text i,
 .info i,
 .head-1 i,
 .head-3 i,
@@ -425,7 +425,13 @@ html, body {
 	float: left;
 }
 
-#table-1 {
+#opening-time h3 {
+	color: #191f1c;
+}
+
+#table-1,
+#table-2 {
+	font-family: 'Montserrat', sans-serif;
 	width: 100%;
 	height: auto;
 	border-radius: 4px;
@@ -462,26 +468,8 @@ table {
 	font-weight: bold;
 }
 
-#table-th {
-	height: 40px;
-	min-width: 392px;
-	max-width: 100%;
-}
-
-#table-td {
+.table-td {
 	height: 300px;
-}
-
-#giorno {
-	width: 20%;
-	padding: 0;
-}
-
-#mattina,
-#pomeriggio {
-	width: 40%;
-	text-align: center;
-	color: white;
 }
 
 th {
@@ -617,7 +605,6 @@ table, th, td {
 		margin: 0;
 		padding: 30px 5%;
 		letter-spacing: 1px;
-		border-bottom: 1px solid rgba(0,0,0,0.2);
 	}
 
 	.container {

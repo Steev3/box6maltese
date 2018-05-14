@@ -294,12 +294,11 @@ nav {
 	}
 
 	.brandlogo-mobile img {
-		width: 146px;
-	    height: 33px;
+		width: 200px;
 	    display: table-cell;
 	    vertical-align: middle;
 	    margin: 0 auto;
-	    padding: 14.5px 0;
+	    padding: 16.5px 0;
 	}
 
 	.brandlogo-mobile a > span {

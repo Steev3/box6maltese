@@ -321,17 +321,18 @@ html, body {
 	padding-top: 76px;
 }
 
-.img-cont-1 h2,
-.img-cont-2 h2,
-.img-cont-3 h2,
-.img-cont-4 h2,
-.img-cont-5 h2,
-.img-cont-6 h2 {
+#varieta h2,
+#qualita h2,
+#onesta h2,
+#risparmio h2,
+#supporto h2,
+#gestione-ordini h2 {
 	float: left;
 	width: 100%;
-	font-weight: 400;
-	text-align: center;
-	color: #329932;
+	font-weight: 600;
+	font-size: 18px;
+	color: #181f1c;
+	text-transform: uppercase;
 } 
 
 .onesta-text,
@@ -632,10 +633,10 @@ table, th, td {
 	#risparmio h2,
 	#supporto h2,
 	#gestione-ordini h2 {
-		width: 95%;
+		width: 100%;
 		font-weight: 400;
-		margin-left: 2.5%;
-		margin-right: 2.5%;
+		margin-left: 0;
+		margin-right: 0;
 	}
 }
 
@@ -688,7 +689,7 @@ table, th, td {
 	#risparmio h2,
 	#supporto h2,
 	#gestione-ordini h2 {
-		font-weight: 400;
+		font-weight: 600;
 	} 
 	
 	#onesta h3,

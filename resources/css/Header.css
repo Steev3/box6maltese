@@ -382,18 +382,8 @@ nav {
 		text-decoration: none;
 		color: #181F1C;
 		padding: 15px 0;
-		border-top: 1px solid #181f1c;
-		border-bottom: 1px solid #181f1c;
 		float: left;
 		text-align: center;
-	}
-
-	#ul-mobile #home-line {
-		border-top: 2px solid #181f1c;
-	}
-
-	#ul-mobile #clock-line {
-		border-bottom: 2px solid #181f1c;
 	}
 
 	#ul-mobile li a:hover {
@@ -480,8 +470,6 @@ nav {
 		color: #181f1c;
 		letter-spacing: 1px;
 		padding: 15px 0;
-		border-top: 1px solid #181f1c;
-		border-bottom: 1px solid #181f1c;
 		margin: 0;
 		font-family: 'Montserrat', sans-serif;
 	}
@@ -494,16 +482,6 @@ nav {
 	#ul-contact li > #address-close:hover {
 		color: white;
 		background-color: #329932;
-	}
-
-	#ul-contact li > #cell-numb-dar-open,
-	#ul-contact li > #cell-numb-dar-close {
-		border-top: 2px solid #181f1c;
-	}
-
-	#ul-contact li > #address-open,
-	#ul-contact li > #address-close {
-		border-bottom: 2px solid #181f1c;
 	}
 
 	#ul-contact li > #cell-numb-dar-close,

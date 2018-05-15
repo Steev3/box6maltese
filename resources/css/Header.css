@@ -85,8 +85,7 @@ nav {
 }
 
 .brandlogo-extended img {
-	width: 146px;
-	height: 33px;
+	width: 150px;
 }
 
 .brandlogo-extended a {
@@ -97,7 +96,7 @@ nav {
 	vertical-align: middle;
 	font-size: 18px;
 	color: #181F1C;
-	padding-left: 20px;
+	padding-left: 10px;
 	text-decoration: none;
 }
 
@@ -243,6 +242,14 @@ nav {
 		display: none;
 	}
 
+	#tab-menu {
+		display: block;
+	}
+
+	#mobile-menu {
+		display: none;
+	}
+
 	.navbar-mobile-catalog,
 	.navbar-mobile {
 		display: block;
@@ -294,7 +301,7 @@ nav {
 	}
 
 	.brandlogo-mobile img {
-		width: 200px;
+		width: 150px;
 	    display: table-cell;
 	    vertical-align: middle;
 	    margin: 0 auto;
@@ -516,7 +523,7 @@ nav {
 
 	.providers a {
 		float: left;
-		width: 25%;
+		width: 33.33%;
 		text-align: center;
 		padding: 0;
 		color: white;
@@ -563,7 +570,7 @@ nav {
 	}
 
 	.mobile-contact .providers > a {
-		width: 25%;
+		width: 33.33%;
 	}
 }
 	

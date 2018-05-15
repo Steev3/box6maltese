@@ -116,8 +116,9 @@ html, body {
 }
 
 .info p {
-	font-size: 1.5em;
+	font-size: 2em;
 	text-align: center;
+	font-family: 'Indie Flower', cursive;
 	line-height: 1.5;
 }
 
@@ -595,7 +596,12 @@ table, th, td {
 		width: 90%;
 		font-size: 3em;
 		font-weight: 200;
-		text-align: center;
+		text-align: justify;
+		-moz-box-shadow: 1px 0 5px;
+		-webkit-box-shadow: 1px 0 5px;
+		-o-box-shadow: 1px 0 5px;
+		-ms-box-shadow: 1px 0 5px;
+		box-shadow: 1px 0 5px;
 		margin: 0;
 		padding: 30px 5%;
 		letter-spacing: 1px;
@@ -610,7 +616,7 @@ table, th, td {
 
 	.info p {
 		font-size: 1.6em;
-		text-align: center;
+		text-align: justify;
 		line-height: 1.5;
 	}
 

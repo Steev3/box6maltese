@@ -123,7 +123,7 @@ html, body {
 .info p {
 	font-size: 2em;
 	text-align: center;
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Montserrat', sans-serif;
 	line-height: 1.5;
 }
 
@@ -615,7 +615,7 @@ table, th, td {
 	}
 
 	.info p {
-		font-size: 2em;
+		font-size: 1.2em;
 		text-align: justify;
 		line-height: 1.5;
 		padding: 0 20px;

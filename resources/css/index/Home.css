@@ -68,8 +68,7 @@ html, body {
 
 .mobile-text-index img {
 	width: 300px;
-	height: 70px;
-    margin: 0 auto;
+    margin: 0 auto 20px;
     display: table-cell;
 }
 
@@ -589,7 +588,7 @@ table, th, td {
 	}
 
 	#h4-under-title {
-		display: block;
+		display: none;
 		float: left;
 		font-family: 'Indie Flower', cursive;
 		color: #181F1C;
@@ -618,6 +617,7 @@ table, th, td {
 		font-size: 1.6em;
 		text-align: justify;
 		line-height: 1.5;
+		padding: 0 20px;
 	}
 
 	#onesta,
@@ -654,7 +654,7 @@ table, th, td {
 	.mobile-text-index h2 {
 		margin: 0 5%;
 		width: 90%;
-		font-size: 2.3em;
+		font-size: 2em;
 		letter-spacing: 5px;
 	}
 
@@ -663,9 +663,8 @@ table, th, td {
 	}
 
 	.mobile-text-index img {
-		width: 300px;
-		height: 70px;
-	    margin: 0 auto;
+		width: 250px;
+	    margin: 0 auto 20px;
 	    display: table-cell;
 	}
 
@@ -714,8 +713,7 @@ table, th, td {
 
 	.mobile-text-index img {
 		width: 250px;
-    	height: 60px;
-	    margin: 0 auto;
+	    margin: 0 auto 20px;
 	    display: table-cell;
 	}
 
@@ -723,7 +721,7 @@ table, th, td {
 		margin: 0 5%;
 		width: 90%;
 		letter-spacing: 5px;
-		font-size: 2em;
+		font-size: 1.7em;
 	}
 
 }
@@ -731,9 +729,8 @@ table, th, td {
 @media screen and (max-width: 300px) {
 
 	.mobile-text-index img {
-		width: 230px;
-    	height: 55px;
-	    margin: 0 auto;
+		width: 190px;
+	    margin: 0 auto 20px;
 	    display: table-cell;
 	}
 
@@ -741,7 +738,7 @@ table, th, td {
 		margin: 0 5%;
 		width: 90%;
 		letter-spacing: 1px;
-		font-size: 2em;
+		font-size: 1.7em;
 	}
 
 }
